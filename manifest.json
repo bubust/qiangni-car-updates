@@ -3,14 +3,20 @@
     {
       "package": "tw.qiangni.car.updater",
       "name": "牆泥更新器",
-      "versionCode": 2,
-      "versionName": "1.0.1",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.updater-2/tw.qiangni.car.updater-2.apk",
-      "sha256": "0438e203c5efdc34d123676384f12c73d27ce74a8cee8cf4eae93d213aab823d",
-      "size": 2043041,
-      "notes": "修正：畫面回到前景時會重新檢查更新",
-      "published": "2026-11-13 17:21",
+      "versionCode": 3,
+      "versionName": "1.1.0",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.updater-3/tw.qiangni.car.updater-3.apk",
+      "sha256": "bb8712209e07bacbaccc9f7e8b09ff63a91d242df00379332974ec9c014556e4",
+      "size": 2082037,
+      "notes": "完整功能：右上角關閉；分頁「更新／歷程／關於」；更新前先看更新內容（跳版會列出每一版）；下載進度和取消；全部更新；換到 P 檔時按鈕即時可按；這台車的安裝紀錄和線上版本歷程；失敗原因中文說明；裝完自動清掉下載檔；可關閉自動檢查；改直接讀 GitHub API，發布後馬上看得到",
+      "published": "2026-11-13 19:44",
       "history": [
+        {
+          "versionCode": 3,
+          "versionName": "1.1.0",
+          "notes": "完整功能：右上角關閉；分頁「更新／歷程／關於」；更新前先看更新內容（跳版會列出每一版）；下載進度和取消；全部更新；換到 P 檔時按鈕即時可按；這台車的安裝紀錄和線上版本歷程；失敗原因中文說明；裝完自動清掉下載檔；可關閉自動檢查；改直接讀 GitHub API，發布後馬上看得到",
+          "published": "2026-11-13 19:44"
+        },
         {
           "versionCode": 2,
           "versionName": "1.0.1",
@@ -26,5 +32,5 @@
       ]
     }
   ],
-  "updated": "2026-11-13 17:21"
+  "updated": "2026-11-13 19:44"
 }
