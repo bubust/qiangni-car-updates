@@ -3,14 +3,14 @@
     {
       "package": "tw.qiangni.car.updater",
       "name": "牆泥更新器",
-      "versionCode": 1,
-      "versionName": "1.0.0",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.updater-1/tw.qiangni.car.updater-1.apk",
-      "sha256": "9c06c4d893701ff9d6ec43568b7aed141926568946f8b8a2da59834beff313ac",
-      "size": 2042917,
-      "notes": "第一版：檢查更新、驗證簽章、只在 P 檔安裝",
-      "published": "2026-11-13 17:15"
+      "versionCode": 2,
+      "versionName": "1.0.1",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.updater-2/tw.qiangni.car.updater-2.apk",
+      "sha256": "0438e203c5efdc34d123676384f12c73d27ce74a8cee8cf4eae93d213aab823d",
+      "size": 2043041,
+      "notes": "修正：畫面回到前景時會重新檢查更新",
+      "published": "2026-11-13 17:21"
     }
   ],
-  "updated": "2026-11-13 17:15"
+  "updated": "2026-11-13 17:21"
 }
