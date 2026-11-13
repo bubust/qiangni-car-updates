@@ -9,7 +9,21 @@
       "sha256": "0438e203c5efdc34d123676384f12c73d27ce74a8cee8cf4eae93d213aab823d",
       "size": 2043041,
       "notes": "修正：畫面回到前景時會重新檢查更新",
-      "published": "2026-11-13 17:21"
+      "published": "2026-11-13 17:21",
+      "history": [
+        {
+          "versionCode": 2,
+          "versionName": "1.0.1",
+          "notes": "修正：畫面回到前景時會重新檢查更新",
+          "published": "2026-11-13 17:21"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "1.0.0",
+          "notes": "第一版：檢查更新、驗證簽章、只在 P 檔安裝",
+          "published": "2026-11-13 17:15"
+        }
+      ]
     }
   ],
   "updated": "2026-11-13 17:21"
