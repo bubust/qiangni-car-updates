@@ -30,7 +30,26 @@
           "published": "2026-11-13 17:15"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.cluster",
+      "name": "牆泥儀表卡",
+      "versionCode": 1,
+      "versionName": "0.1.0",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.cluster-1/tw.qiangni.car.cluster-1.apk",
+      "sha256": "dd0fd0f98ec31a47699d187a65281c329c126a2118f6d2b259060f867e395c59",
+      "size": 2063705,
+      "notes": "第一版（驗證用）：在儀表的音樂卡位置顯示時鐘、電量、續航、即時功率、檔位。R 檔自動隱藏；設定畫面可換位置（音樂卡／行程卡）、顯示外框、開機自動啟動開關；「全部關閉」一鍵恢復原廠儀表；連續閃退 3 次就停止自動啟動。第一次裝完要用車機工具選單 5 授權。",
+      "published": "2026-11-14 00:42",
+      "history": [
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "第一版（驗證用）：在儀表的音樂卡位置顯示時鐘、電量、續航、即時功率、檔位。R 檔自動隱藏；設定畫面可換位置（音樂卡／行程卡）、顯示外框、開機自動啟動開關；「全部關閉」一鍵恢復原廠儀表；連續閃退 3 次就停止自動啟動。第一次裝完要用車機工具選單 5 授權。",
+          "published": "2026-11-14 00:42"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-13 19:44"
+  "updated": "2026-11-14 00:42"
 }
