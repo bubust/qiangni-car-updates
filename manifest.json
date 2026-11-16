@@ -74,7 +74,26 @@
           "published": "2026-11-14 00:42"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.eq",
+      "name": "牆泥音響",
+      "versionCode": 1,
+      "versionName": "0.1.0",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.eq-1/tw.qiangni.car.eq-1.apk",
+      "sha256": "b02c3e4e27faa7d723a9e21d412c4df5857617badb3c9a43a1b2ea9236a1de71",
+      "size": 2074917,
+      "notes": "第一版：只調音樂的 EQ、情境音效、小憩模式",
+      "published": "2026-11-16 14:27",
+      "history": [
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "第一版：只調音樂的 EQ、情境音效、小憩模式",
+          "published": "2026-11-16 14:27"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-16 14:21"
+  "updated": "2026-11-16 14:27"
 }
