@@ -49,7 +49,26 @@
           "published": "2026-11-14 00:42"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.logger",
+      "name": "牆泥行車紀錄",
+      "versionCode": 1,
+      "versionName": "0.1.0",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.logger-1/tw.qiangni.car.logger-1.apk",
+      "sha256": "8dd457987c03683d796c610552b5e1bb3f088903a5b5ccf6341508712e110034",
+      "size": 2196037,
+      "notes": "第一版：旅程、充電、停車耗電紀錄；儀表卡資料來源；在車上授權按鈕",
+      "published": "2026-11-16 14:13",
+      "history": [
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "第一版：旅程、充電、停車耗電紀錄；儀表卡資料來源；在車上授權按鈕",
+          "published": "2026-11-16 14:13"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-14 00:42"
+  "updated": "2026-11-16 14:13"
 }
