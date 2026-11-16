@@ -26,37 +26,6 @@
       ]
     },
     {
-      "package": "tw.qiangni.car.cluster",
-      "name": "牆泥儀表卡",
-      "versionCode": 3,
-      "versionName": "0.3.0",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.cluster-3/tw.qiangni.car.cluster-3.apk",
-      "sha256": "2e861e9e2b521031bb4c80ce18719880cfced035bfa617c1f3ebe81d3d7f2902",
-      "size": 2090965,
-      "notes": "卡片改不透明，加上儀表的「充電後」和「總里程」；打開設定畫面時原廠儀表不再變黑；續航改讀公里（原本顯示 0 km）",
-      "published": "2026-11-16 16:25",
-      "history": [
-        {
-          "versionCode": 3,
-          "versionName": "0.3.0",
-          "notes": "卡片改不透明，加上儀表的「充電後」和「總里程」；打開設定畫面時原廠儀表不再變黑；續航改讀公里（原本顯示 0 km）",
-          "published": "2026-11-16 16:25"
-        },
-        {
-          "versionCode": 2,
-          "versionName": "0.2.0",
-          "notes": "依情境換卡：出發簡報、行駛回收和實際續航、充電、0–100；在車上授權按鈕",
-          "published": "2026-11-16 14:21"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "第一版（驗證用）：在儀表的音樂卡位置顯示時鐘、電量、續航、即時功率、檔位。R 檔自動隱藏；設定畫面可換位置（音樂卡／行程卡）、顯示外框、開機自動啟動開關；「全部關閉」一鍵恢復原廠儀表；連續閃退 3 次就停止自動啟動。第一次裝完要用車機工具選單 5 授權。",
-          "published": "2026-11-14 00:42"
-        }
-      ]
-    },
-    {
       "package": "tw.qiangni.car.logger",
       "name": "牆泥行車紀錄",
       "versionCode": 2,
@@ -129,7 +98,44 @@
           "published": "2026-11-13 17:15"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.cluster",
+      "name": "牆泥儀表卡",
+      "versionCode": 4,
+      "versionName": "0.3.1",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.cluster-4/tw.qiangni.car.cluster-4.apk",
+      "sha256": "d2c13ee3d9baaf81b520ff813e65d03ca2ffd86bbcc75c39031813239a677e30",
+      "size": 2095649,
+      "notes": "卡片改真的不透明（修好疊字）、可在設定頁即時移動／放大縮小、字體隨大小變大、可蓋過檔位",
+      "published": "2026-11-16 17:22",
+      "history": [
+        {
+          "versionCode": 4,
+          "versionName": "0.3.1",
+          "notes": "卡片改真的不透明（修好疊字）、可在設定頁即時移動／放大縮小、字體隨大小變大、可蓋過檔位",
+          "published": "2026-11-16 17:22"
+        },
+        {
+          "versionCode": 3,
+          "versionName": "0.3.0",
+          "notes": "卡片改不透明，加上儀表的「充電後」和「總里程」；打開設定畫面時原廠儀表不再變黑；續航改讀公里（原本顯示 0 km）",
+          "published": "2026-11-16 16:25"
+        },
+        {
+          "versionCode": 2,
+          "versionName": "0.2.0",
+          "notes": "依情境換卡：出發簡報、行駛回收和實際續航、充電、0–100；在車上授權按鈕",
+          "published": "2026-11-16 14:21"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "第一版（驗證用）：在儀表的音樂卡位置顯示時鐘、電量、續航、即時功率、檔位。R 檔自動隱藏；設定畫面可換位置（音樂卡／行程卡）、顯示外框、開機自動啟動開關；「全部關閉」一鍵恢復原廠儀表；連續閃退 3 次就停止自動啟動。第一次裝完要用車機工具選單 5 授權。",
+          "published": "2026-11-14 00:42"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-16 16:35"
+  "updated": "2026-11-16 17:22"
 }
