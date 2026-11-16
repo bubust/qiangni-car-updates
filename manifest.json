@@ -160,7 +160,26 @@
           "published": "2026-11-16 21:21"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.aa",
+      "name": "牆泥 AA 助手",
+      "versionCode": 1,
+      "versionName": "0.1.0",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.aa-1/tw.qiangni.car.aa-1.apk",
+      "sha256": "45b20570b6d92cdfa06dad0f3548a6c83f919775accad6b6cb150f64b54f310c",
+      "size": 2094561,
+      "notes": "第一版：R 後自動叫回 Android Auto、跳掉／當掉提示卡、事件紀錄＋重開機後問原因",
+      "published": "2026-11-17 07:39",
+      "history": [
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "第一版：R 後自動叫回 Android Auto、跳掉／當掉提示卡、事件紀錄＋重開機後問原因",
+          "published": "2026-11-17 07:39"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-16 21:21"
+  "updated": "2026-11-17 07:39"
 }
