@@ -66,14 +66,20 @@
     {
       "package": "tw.qiangni.car.updater",
       "name": "牆泥更新器",
-      "versionCode": 4,
-      "versionName": "1.1.1",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.updater-4/tw.qiangni.car.updater-4.apk",
-      "sha256": "d3946ffb85a4b53dc87640c447f0a44d87d4186434b9ed2d7e72d460fff22aff",
-      "size": 2083257,
-      "notes": "每個已安裝的 app 可以直接打開",
-      "published": "2026-11-16 14:32",
+      "versionCode": 5,
+      "versionName": "1.1.2",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.updater-5/tw.qiangni.car.updater-5.apk",
+      "sha256": "3cdd01cbfa3d415c25130e86c51651f5b29775bf52a771f9b1870dd84f4a615f",
+      "size": 2083605,
+      "notes": "打開更新器時原廠儀表不再變黑",
+      "published": "2026-11-16 16:11",
       "history": [
+        {
+          "versionCode": 5,
+          "versionName": "1.1.2",
+          "notes": "打開更新器時原廠儀表不再變黑",
+          "published": "2026-11-16 16:11"
+        },
         {
           "versionCode": 4,
           "versionName": "1.1.1",
@@ -101,5 +107,5 @@
       ]
     }
   ],
-  "updated": "2026-11-16 14:32"
+  "updated": "2026-11-16 16:11"
 }
