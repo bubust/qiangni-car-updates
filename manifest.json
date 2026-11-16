@@ -141,7 +141,26 @@
           "published": "2026-11-14 00:42"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.keytest",
+      "name": "牆泥鑰匙測試",
+      "versionCode": 2,
+      "versionName": "0.1.1",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.keytest-2/tw.qiangni.car.keytest-2.apk",
+      "sha256": "a461a397fb570bb0b1ee7082baba955afed839623cdfeee86116d0849831a95b",
+      "size": 2032657,
+      "notes": "測試鑰匙盒",
+      "published": "2026-11-16 21:21",
+      "history": [
+        {
+          "versionCode": 2,
+          "versionName": "0.1.1",
+          "notes": "測試鑰匙盒",
+          "published": "2026-11-16 21:21"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-16 17:37"
+  "updated": "2026-11-16 21:21"
 }
