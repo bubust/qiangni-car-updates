@@ -102,14 +102,20 @@
     {
       "package": "tw.qiangni.car.cluster",
       "name": "牆泥儀表卡",
-      "versionCode": 4,
-      "versionName": "0.3.1",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.cluster-4/tw.qiangni.car.cluster-4.apk",
-      "sha256": "d2c13ee3d9baaf81b520ff813e65d03ca2ffd86bbcc75c39031813239a677e30",
-      "size": 2095649,
-      "notes": "卡片改真的不透明（修好疊字）、可在設定頁即時移動／放大縮小、字體隨大小變大、可蓋過檔位",
-      "published": "2026-11-16 17:22",
+      "versionCode": 5,
+      "versionName": "0.3.2",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.cluster-5/tw.qiangni.car.cluster-5.apk",
+      "sha256": "053f21254aff2371c6885c85eb35cda73d991b9e5a25eda1cef4386a4756ef60",
+      "size": 2097233,
+      "notes": "新增可調透明度（調低一點，打方向燈時看得到後面的盲區鏡頭）；位置大小可即時調整；修好不透明",
+      "published": "2026-11-16 17:37",
       "history": [
+        {
+          "versionCode": 5,
+          "versionName": "0.3.2",
+          "notes": "新增可調透明度（調低一點，打方向燈時看得到後面的盲區鏡頭）；位置大小可即時調整；修好不透明",
+          "published": "2026-11-16 17:37"
+        },
         {
           "versionCode": 4,
           "versionName": "0.3.1",
@@ -137,5 +143,5 @@
       ]
     }
   ],
-  "updated": "2026-11-16 17:22"
+  "updated": "2026-11-16 17:37"
 }
