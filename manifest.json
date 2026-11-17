@@ -50,25 +50,6 @@
       ]
     },
     {
-      "package": "tw.qiangni.car.key",
-      "name": "牆泥鑰匙",
-      "versionCode": 1,
-      "versionName": "0.1.0",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.key-1/tw.qiangni.car.key-1.apk",
-      "sha256": "8ff37766a9dc4f8fb41c7b137390ade4ea21465374a60d74dc1078461ded934a",
-      "size": 2075409,
-      "notes": "新 app：熄火 5 秒後自動上鎖、車機上鎖／解鎖按鈕；登入碼第一次在 App 裡輸入，不放進 APK",
-      "published": "2026-11-17 15:10",
-      "history": [
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "新 app：熄火 5 秒後自動上鎖、車機上鎖／解鎖按鈕；登入碼第一次在 App 裡輸入，不放進 APK",
-          "published": "2026-11-17 15:10"
-        }
-      ]
-    },
-    {
       "package": "tw.qiangni.car.keytest",
       "name": "牆泥鑰匙測試",
       "versionCode": 4,
@@ -276,7 +257,32 @@
           "published": "2026-11-17 07:39"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.key",
+      "name": "牆泥鑰匙",
+      "versionCode": 2,
+      "versionName": "0.1.1",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.key-2/tw.qiangni.car.key-2.apk",
+      "sha256": "b5ea2b9a7e2d9df444a80d447a995fbb95291a07293180ad639902bc4f5b5512",
+      "size": 2084249,
+      "notes": "自動上鎖失敗會回報到雲端；閃退自動回報",
+      "published": "2026-11-17 17:20",
+      "history": [
+        {
+          "versionCode": 2,
+          "versionName": "0.1.1",
+          "notes": "自動上鎖失敗會回報到雲端；閃退自動回報",
+          "published": "2026-11-17 17:20"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "新 app：熄火 5 秒後自動上鎖、車機上鎖／解鎖按鈕；登入碼第一次在 App 裡輸入，不放進 APK",
+          "published": "2026-11-17 15:10"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-17 17:13"
+  "updated": "2026-11-17 17:20"
 }
