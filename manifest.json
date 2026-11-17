@@ -221,7 +221,26 @@
           "published": "2026-11-16 21:21"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.key",
+      "name": "牆泥鑰匙",
+      "versionCode": 1,
+      "versionName": "0.1.0",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.key-1/tw.qiangni.car.key-1.apk",
+      "sha256": "8ff37766a9dc4f8fb41c7b137390ade4ea21465374a60d74dc1078461ded934a",
+      "size": 2075409,
+      "notes": "新 app：熄火 5 秒後自動上鎖、車機上鎖／解鎖按鈕；登入碼第一次在 App 裡輸入，不放進 APK",
+      "published": "2026-11-17 15:10",
+      "history": [
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "新 app：熄火 5 秒後自動上鎖、車機上鎖／解鎖按鈕；登入碼第一次在 App 裡輸入，不放進 APK",
+          "published": "2026-11-17 15:10"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-17 13:56"
+  "updated": "2026-11-17 15:10"
 }
