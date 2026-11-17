@@ -50,31 +50,6 @@
       ]
     },
     {
-      "package": "tw.qiangni.car.aa",
-      "name": "牆泥 AA 助手",
-      "versionCode": 2,
-      "versionName": "0.1.1",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.aa-2/tw.qiangni.car.aa-2.apk",
-      "sha256": "56287b90107e4e9c6f523c1366d1f8e432edd07392e1e98cd834a16460f99351",
-      "size": 2097361,
-      "notes": "記錄倒車影像出現要多久（只計時、不碰倒車畫面）",
-      "published": "2026-11-17 08:30",
-      "history": [
-        {
-          "versionCode": 2,
-          "versionName": "0.1.1",
-          "notes": "記錄倒車影像出現要多久（只計時、不碰倒車畫面）",
-          "published": "2026-11-17 08:30"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "第一版：R 後自動叫回 Android Auto、跳掉／當掉提示卡、事件紀錄＋重開機後問原因",
-          "published": "2026-11-17 07:39"
-        }
-      ]
-    },
-    {
       "package": "tw.qiangni.car.key",
       "name": "牆泥鑰匙",
       "versionCode": 1,
@@ -270,7 +245,38 @@
           "published": "2026-11-16 14:27"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.aa",
+      "name": "牆泥 AA 助手",
+      "versionCode": 3,
+      "versionName": "0.1.2",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.aa-3/tw.qiangni.car.aa-3.apk",
+      "sha256": "88735c1472e1ba197768a8d3ee22c042734923efbb5aeb742cf2a6f21b5ba981",
+      "size": 2107973,
+      "notes": "車上就能開浮動視窗、使用紀錄權限；AA 當掉等重要事件自動傳雲端",
+      "published": "2026-11-17 17:13",
+      "history": [
+        {
+          "versionCode": 3,
+          "versionName": "0.1.2",
+          "notes": "車上就能開浮動視窗、使用紀錄權限；AA 當掉等重要事件自動傳雲端",
+          "published": "2026-11-17 17:13"
+        },
+        {
+          "versionCode": 2,
+          "versionName": "0.1.1",
+          "notes": "記錄倒車影像出現要多久（只計時、不碰倒車畫面）",
+          "published": "2026-11-17 08:30"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "第一版：R 後自動叫回 Android Auto、跳掉／當掉提示卡、事件紀錄＋重開機後問原因",
+          "published": "2026-11-17 07:39"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-17 17:06"
+  "updated": "2026-11-17 17:13"
 }
