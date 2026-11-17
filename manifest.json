@@ -213,14 +213,20 @@
     {
       "package": "tw.qiangni.car.logger",
       "name": "牆泥行車紀錄",
-      "versionCode": 5,
-      "versionName": "0.2.3",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.logger-5/tw.qiangni.car.logger-5.apk",
-      "sha256": "645265e46737b4c5ac225f90eedbec27380eea2a92358c8eb257d37076f65232",
-      "size": 2240741,
-      "notes": "加「車輛資料探索」：列出讀得到的所有車輛屬性和即時值，用來找功率、電池容量",
-      "published": "2026-11-17 15:21",
+      "versionCode": 6,
+      "versionName": "0.2.4",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.logger-6/tw.qiangni.car.logger-6.apk",
+      "sha256": "034182bd2ebb5cd67378928c37771ae133fde4606ba2c48fc3e8a945dcca2c60",
+      "size": 2269733,
+      "notes": "在車上登入雲端（email＋密碼，不用連電腦）；儀表導航卡改讀車上的 Google 地圖；收集所有 app 的閃退回報上傳雲端＋Telegram",
+      "published": "2026-11-17 16:52",
       "history": [
+        {
+          "versionCode": 6,
+          "versionName": "0.2.4",
+          "notes": "在車上登入雲端（email＋密碼，不用連電腦）；儀表導航卡改讀車上的 Google 地圖；收集所有 app 的閃退回報上傳雲端＋Telegram",
+          "published": "2026-11-17 16:52"
+        },
         {
           "versionCode": 5,
           "versionName": "0.2.3",
@@ -254,5 +260,5 @@
       ]
     }
   ],
-  "updated": "2026-11-17 15:21"
+  "updated": "2026-11-17 16:52"
 }
