@@ -75,49 +75,6 @@
       ]
     },
     {
-      "package": "tw.qiangni.car.cluster",
-      "name": "牆泥儀表卡",
-      "versionCode": 5,
-      "versionName": "0.3.2",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.cluster-5/tw.qiangni.car.cluster-5.apk",
-      "sha256": "053f21254aff2371c6885c85eb35cda73d991b9e5a25eda1cef4386a4756ef60",
-      "size": 2097233,
-      "notes": "新增可調透明度（調低一點，打方向燈時看得到後面的盲區鏡頭）；位置大小可即時調整；修好不透明",
-      "published": "2026-11-16 17:37",
-      "history": [
-        {
-          "versionCode": 5,
-          "versionName": "0.3.2",
-          "notes": "新增可調透明度（調低一點，打方向燈時看得到後面的盲區鏡頭）；位置大小可即時調整；修好不透明",
-          "published": "2026-11-16 17:37"
-        },
-        {
-          "versionCode": 4,
-          "versionName": "0.3.1",
-          "notes": "卡片改真的不透明（修好疊字）、可在設定頁即時移動／放大縮小、字體隨大小變大、可蓋過檔位",
-          "published": "2026-11-16 17:22"
-        },
-        {
-          "versionCode": 3,
-          "versionName": "0.3.0",
-          "notes": "卡片改不透明，加上儀表的「充電後」和「總里程」；打開設定畫面時原廠儀表不再變黑；續航改讀公里（原本顯示 0 km）",
-          "published": "2026-11-16 16:25"
-        },
-        {
-          "versionCode": 2,
-          "versionName": "0.2.0",
-          "notes": "依情境換卡：出發簡報、行駛回收和實際續航、充電、0–100；在車上授權按鈕",
-          "published": "2026-11-16 14:21"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "第一版（驗證用）：在儀表的音樂卡位置顯示時鐘、電量、續航、即時功率、檔位。R 檔自動隱藏；設定畫面可換位置（音樂卡／行程卡）、顯示外框、開機自動啟動開關；「全部關閉」一鍵恢復原廠儀表；連續閃退 3 次就停止自動啟動。第一次裝完要用車機工具選單 5 授權。",
-          "published": "2026-11-14 00:42"
-        }
-      ]
-    },
-    {
       "package": "tw.qiangni.car.keytest",
       "name": "牆泥鑰匙測試",
       "versionCode": 2,
@@ -185,7 +142,56 @@
           "published": "2026-11-16 14:13"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.cluster",
+      "name": "牆泥儀表卡",
+      "versionCode": 6,
+      "versionName": "0.3.3",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.cluster-6/tw.qiangni.car.cluster-6.apk",
+      "sha256": "6f0081ee94c9f8fb65db0bc5cca62a914813049cfea802318322112d9fa8405b",
+      "size": 2099441,
+      "notes": "對外供電中顯示供電 kW、已用 kWh、還能用多久",
+      "published": "2026-11-17 08:23",
+      "history": [
+        {
+          "versionCode": 6,
+          "versionName": "0.3.3",
+          "notes": "對外供電中顯示供電 kW、已用 kWh、還能用多久",
+          "published": "2026-11-17 08:23"
+        },
+        {
+          "versionCode": 5,
+          "versionName": "0.3.2",
+          "notes": "新增可調透明度（調低一點，打方向燈時看得到後面的盲區鏡頭）；位置大小可即時調整；修好不透明",
+          "published": "2026-11-16 17:37"
+        },
+        {
+          "versionCode": 4,
+          "versionName": "0.3.1",
+          "notes": "卡片改真的不透明（修好疊字）、可在設定頁即時移動／放大縮小、字體隨大小變大、可蓋過檔位",
+          "published": "2026-11-16 17:22"
+        },
+        {
+          "versionCode": 3,
+          "versionName": "0.3.0",
+          "notes": "卡片改不透明，加上儀表的「充電後」和「總里程」；打開設定畫面時原廠儀表不再變黑；續航改讀公里（原本顯示 0 km）",
+          "published": "2026-11-16 16:25"
+        },
+        {
+          "versionCode": 2,
+          "versionName": "0.2.0",
+          "notes": "依情境換卡：出發簡報、行駛回收和實際續航、充電、0–100；在車上授權按鈕",
+          "published": "2026-11-16 14:21"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "第一版（驗證用）：在儀表的音樂卡位置顯示時鐘、電量、續航、即時功率、檔位。R 檔自動隱藏；設定畫面可換位置（音樂卡／行程卡）、顯示外框、開機自動啟動開關；「全部關閉」一鍵恢復原廠儀表；連續閃退 3 次就停止自動啟動。第一次裝完要用車機工具選單 5 授權。",
+          "published": "2026-11-14 00:42"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-17 08:16"
+  "updated": "2026-11-17 08:23"
 }
