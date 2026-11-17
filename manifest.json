@@ -63,31 +63,6 @@
       ]
     },
     {
-      "package": "tw.qiangni.car.key",
-      "name": "牆泥鑰匙",
-      "versionCode": 2,
-      "versionName": "0.1.1",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.key-2/tw.qiangni.car.key-2.apk",
-      "sha256": "b5ea2b9a7e2d9df444a80d447a995fbb95291a07293180ad639902bc4f5b5512",
-      "size": 2084249,
-      "notes": "自動上鎖失敗會回報到雲端；閃退自動回報",
-      "published": "2026-11-17 17:20",
-      "history": [
-        {
-          "versionCode": 2,
-          "versionName": "0.1.1",
-          "notes": "自動上鎖失敗會回報到雲端；閃退自動回報",
-          "published": "2026-11-17 17:20"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "新 app：熄火 5 秒後自動上鎖、車機上鎖／解鎖按鈕；登入碼第一次在 App 裡輸入，不放進 APK",
-          "published": "2026-11-17 15:10"
-        }
-      ]
-    },
-    {
       "package": "tw.qiangni.car.updater",
       "name": "牆泥更新器",
       "versionCode": 7,
@@ -325,7 +300,38 @@
           "published": "2026-11-17 07:39"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.key",
+      "name": "牆泥鑰匙",
+      "versionCode": 3,
+      "versionName": "0.1.2",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.key-3/tw.qiangni.car.key-3.apk",
+      "sha256": "88b35318e5575910f19e0b5f19dad64d6121a32ca7b4b4ce72b7da61b46e7753",
+      "size": 2085353,
+      "notes": "自動上鎖沒收到盒子回報時，自動重試 2 次（車還熄火才重試）",
+      "published": "2026-11-18 00:15",
+      "history": [
+        {
+          "versionCode": 3,
+          "versionName": "0.1.2",
+          "notes": "自動上鎖沒收到盒子回報時，自動重試 2 次（車還熄火才重試）",
+          "published": "2026-11-18 00:15"
+        },
+        {
+          "versionCode": 2,
+          "versionName": "0.1.1",
+          "notes": "自動上鎖失敗會回報到雲端；閃退自動回報",
+          "published": "2026-11-17 17:20"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "新 app：熄火 5 秒後自動上鎖、車機上鎖／解鎖按鈕；登入碼第一次在 App 裡輸入，不放進 APK",
+          "published": "2026-11-17 15:10"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-18 00:08"
+  "updated": "2026-11-18 00:15"
 }
