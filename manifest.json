@@ -1,31 +1,6 @@
 {
   "apps": [
     {
-      "package": "tw.qiangni.car.eq",
-      "name": "牆泥音響",
-      "versionCode": 2,
-      "versionName": "0.1.1",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.eq-2/tw.qiangni.car.eq-2.apk",
-      "sha256": "53d432976863b6cd71d6972fd11d568a6ade9d478fb7d1c51945a209feca6e53",
-      "size": 2075261,
-      "notes": "打開畫面時原廠儀表不再變黑",
-      "published": "2026-11-16 16:18",
-      "history": [
-        {
-          "versionCode": 2,
-          "versionName": "0.1.1",
-          "notes": "打開畫面時原廠儀表不再變黑",
-          "published": "2026-11-16 16:18"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "第一版：只調音樂的 EQ、情境音效、小憩模式",
-          "published": "2026-11-16 14:27"
-        }
-      ]
-    },
-    {
       "package": "tw.qiangni.car.updater",
       "name": "牆泥更新器",
       "versionCode": 6,
@@ -264,7 +239,38 @@
           "published": "2026-11-14 00:42"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.eq",
+      "name": "牆泥音響",
+      "versionCode": 3,
+      "versionName": "0.1.2",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.eq-3/tw.qiangni.car.eq-3.apk",
+      "sha256": "89ed59e10084a81c2c1858504b98ea7ee643782097778335dde60a81db1ce920",
+      "size": 2083997,
+      "notes": "閃退／卡住自動回報到雲端",
+      "published": "2026-11-17 17:06",
+      "history": [
+        {
+          "versionCode": 3,
+          "versionName": "0.1.2",
+          "notes": "閃退／卡住自動回報到雲端",
+          "published": "2026-11-17 17:06"
+        },
+        {
+          "versionCode": 2,
+          "versionName": "0.1.1",
+          "notes": "打開畫面時原廠儀表不再變黑",
+          "published": "2026-11-16 16:18"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "第一版：只調音樂的 EQ、情境音效、小憩模式",
+          "published": "2026-11-16 14:27"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-17 16:59"
+  "updated": "2026-11-17 17:06"
 }
