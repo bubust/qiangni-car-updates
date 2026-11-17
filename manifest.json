@@ -288,7 +288,26 @@
           "published": "2026-11-13 17:15"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.bridge",
+      "name": "牆泥車況讀取",
+      "versionCode": 1,
+      "versionName": "0.1.0",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.bridge-1/tw.qiangni.car.bridge-1.apk",
+      "sha256": "437ec8f31736b345c9bc9714c2553a9b5ac7fc9f57982c375af87297d31f7556",
+      "size": 2065933,
+      "notes": "新 app：讀胎壓、胎溫、儀表總里程、Trip、12V、高壓電池、車門車窗、交通標誌速限（透過車機自己的 adb，只讀）",
+      "published": "2026-11-17 17:47",
+      "history": [
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "新 app：讀胎壓、胎溫、儀表總里程、Trip、12V、高壓電池、車門車窗、交通標誌速限（透過車機自己的 adb，只讀）",
+          "published": "2026-11-17 17:47"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-17 17:24"
+  "updated": "2026-11-17 17:47"
 }
