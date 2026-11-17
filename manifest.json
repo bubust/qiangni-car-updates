@@ -1,55 +1,6 @@
 {
   "apps": [
     {
-      "package": "tw.qiangni.car.updater",
-      "name": "牆泥更新器",
-      "versionCode": 6,
-      "versionName": "1.1.3",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.updater-6/tw.qiangni.car.updater-6.apk",
-      "sha256": "90608f846199548d16d98d30e99f1a61c7c3a8b56e0ee48556e51558ac60c17b",
-      "size": 2083801,
-      "notes": "行進間也能更新：除了 R 檔都可以安裝（開車中請等紅燈再按）",
-      "published": "2026-11-16 16:35",
-      "history": [
-        {
-          "versionCode": 6,
-          "versionName": "1.1.3",
-          "notes": "行進間也能更新：除了 R 檔都可以安裝（開車中請等紅燈再按）",
-          "published": "2026-11-16 16:35"
-        },
-        {
-          "versionCode": 5,
-          "versionName": "1.1.2",
-          "notes": "打開更新器時原廠儀表不再變黑",
-          "published": "2026-11-16 16:11"
-        },
-        {
-          "versionCode": 4,
-          "versionName": "1.1.1",
-          "notes": "每個已安裝的 app 可以直接打開",
-          "published": "2026-11-16 14:32"
-        },
-        {
-          "versionCode": 3,
-          "versionName": "1.1.0",
-          "notes": "完整功能：右上角關閉；分頁「更新／歷程／關於」；更新前先看更新內容（跳版會列出每一版）；下載進度和取消；全部更新；換到 P 檔時按鈕即時可按；這台車的安裝紀錄和線上版本歷程；失敗原因中文說明；裝完自動清掉下載檔；可關閉自動檢查；改直接讀 GitHub API，發布後馬上看得到",
-          "published": "2026-11-13 19:44"
-        },
-        {
-          "versionCode": 2,
-          "versionName": "1.0.1",
-          "notes": "修正：畫面回到前景時會重新檢查更新",
-          "published": "2026-11-13 17:21"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "1.0.0",
-          "notes": "第一版：檢查更新、驗證簽章、只在 P 檔安裝",
-          "published": "2026-11-13 17:15"
-        }
-      ]
-    },
-    {
       "package": "tw.qiangni.car.keytest",
       "name": "牆泥鑰匙測試",
       "versionCode": 4,
@@ -282,7 +233,62 @@
           "published": "2026-11-17 15:10"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.updater",
+      "name": "牆泥更新器",
+      "versionCode": 7,
+      "versionName": "1.1.4",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.updater-7/tw.qiangni.car.updater-7.apk",
+      "sha256": "e11bd9f3a3b43991e3f316e025b154952f1864a6d49e126e2526f82d5d66c358",
+      "size": 2096517,
+      "notes": "緊急移除：在車上就能移除所有牆泥 app（每個都要按確定）；閃退自動回報",
+      "published": "2026-11-17 17:24",
+      "history": [
+        {
+          "versionCode": 7,
+          "versionName": "1.1.4",
+          "notes": "緊急移除：在車上就能移除所有牆泥 app（每個都要按確定）；閃退自動回報",
+          "published": "2026-11-17 17:24"
+        },
+        {
+          "versionCode": 6,
+          "versionName": "1.1.3",
+          "notes": "行進間也能更新：除了 R 檔都可以安裝（開車中請等紅燈再按）",
+          "published": "2026-11-16 16:35"
+        },
+        {
+          "versionCode": 5,
+          "versionName": "1.1.2",
+          "notes": "打開更新器時原廠儀表不再變黑",
+          "published": "2026-11-16 16:11"
+        },
+        {
+          "versionCode": 4,
+          "versionName": "1.1.1",
+          "notes": "每個已安裝的 app 可以直接打開",
+          "published": "2026-11-16 14:32"
+        },
+        {
+          "versionCode": 3,
+          "versionName": "1.1.0",
+          "notes": "完整功能：右上角關閉；分頁「更新／歷程／關於」；更新前先看更新內容（跳版會列出每一版）；下載進度和取消；全部更新；換到 P 檔時按鈕即時可按；這台車的安裝紀錄和線上版本歷程；失敗原因中文說明；裝完自動清掉下載檔；可關閉自動檢查；改直接讀 GitHub API，發布後馬上看得到",
+          "published": "2026-11-13 19:44"
+        },
+        {
+          "versionCode": 2,
+          "versionName": "1.0.1",
+          "notes": "修正：畫面回到前景時會重新檢查更新",
+          "published": "2026-11-13 17:21"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "1.0.0",
+          "notes": "第一版：檢查更新、驗證簽章、只在 P 檔安裝",
+          "published": "2026-11-13 17:15"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-17 17:20"
+  "updated": "2026-11-17 17:24"
 }
