@@ -119,16 +119,59 @@
       ]
     },
     {
+      "package": "tw.qiangni.car.logger",
+      "name": "牆泥行車紀錄",
+      "versionCode": 4,
+      "versionName": "0.2.2",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.logger-4/tw.qiangni.car.logger-4.apk",
+      "sha256": "94b85a946456c9b9bb784715f7658b214c85016534cf692725e7620915d9e02f",
+      "size": 2228721,
+      "notes": "這台車沒有功率資料：改用最近 10 km 掉幾 % 電算續航估和耗電；功率顯示 -- 不再假裝 0",
+      "published": "2026-11-17 13:45",
+      "history": [
+        {
+          "versionCode": 4,
+          "versionName": "0.2.2",
+          "notes": "這台車沒有功率資料：改用最近 10 km 掉幾 % 電算續航估和耗電；功率顯示 -- 不再假裝 0",
+          "published": "2026-11-17 13:45"
+        },
+        {
+          "versionCode": 3,
+          "versionName": "0.2.1",
+          "notes": "對外供電（V2L）偵測：供電中提醒、剩 30% 提醒、結束統計；V2L 不再被算成充電",
+          "published": "2026-11-17 08:16"
+        },
+        {
+          "versionCode": 2,
+          "versionName": "0.2.0",
+          "notes": "新增「照儀表輸入里程」（儀表卡顯示總里程、充電後里程）；打開畫面時原廠儀表不再變黑；續航改讀公里（原本記成 0）",
+          "published": "2026-11-16 16:32"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "第一版：旅程、充電、停車耗電紀錄；儀表卡資料來源；在車上授權按鈕",
+          "published": "2026-11-16 14:13"
+        }
+      ]
+    },
+    {
       "package": "tw.qiangni.car.cluster",
       "name": "牆泥儀表卡",
-      "versionCode": 7,
-      "versionName": "0.3.4",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.cluster-7/tw.qiangni.car.cluster-7.apk",
-      "sha256": "0e08eeb74b0afc4e5a14a907e89bbf8f7722896617b18ceb6416932cfd38b03a",
-      "size": 2099713,
-      "notes": "打方向燈時盲區鏡頭會蓋在儀表卡上面（卡片改到比她的視窗低一層）",
-      "published": "2026-11-17 08:42",
+      "versionCode": 8,
+      "versionName": "0.3.5",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.cluster-8/tw.qiangni.car.cluster-8.apk",
+      "sha256": "ca7c2ed91b7d52b42852afba21ff5667fd0b62fa736b0606effa86636e059e6c",
+      "size": 2121741,
+      "notes": "卡片內容可自己挑（設定頁：行駛中／P 檔，最多 4 行）；這台車沒有功率資料：預設改顯示續航估、電量、本趟耗電、本趟里程，功率顯示 --",
+      "published": "2026-11-17 13:52",
       "history": [
+        {
+          "versionCode": 8,
+          "versionName": "0.3.5",
+          "notes": "卡片內容可自己挑（設定頁：行駛中／P 檔，最多 4 行）；這台車沒有功率資料：預設改顯示續航估、電量、本趟耗電、本趟里程，功率顯示 --",
+          "published": "2026-11-17 13:52"
+        },
         {
           "versionCode": 7,
           "versionName": "0.3.4",
@@ -172,44 +215,7 @@
           "published": "2026-11-14 00:42"
         }
       ]
-    },
-    {
-      "package": "tw.qiangni.car.logger",
-      "name": "牆泥行車紀錄",
-      "versionCode": 4,
-      "versionName": "0.2.2",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.logger-4/tw.qiangni.car.logger-4.apk",
-      "sha256": "94b85a946456c9b9bb784715f7658b214c85016534cf692725e7620915d9e02f",
-      "size": 2228721,
-      "notes": "這台車沒有功率資料：改用最近 10 km 掉幾 % 電算續航估和耗電；功率顯示 -- 不再假裝 0",
-      "published": "2026-11-17 13:45",
-      "history": [
-        {
-          "versionCode": 4,
-          "versionName": "0.2.2",
-          "notes": "這台車沒有功率資料：改用最近 10 km 掉幾 % 電算續航估和耗電；功率顯示 -- 不再假裝 0",
-          "published": "2026-11-17 13:45"
-        },
-        {
-          "versionCode": 3,
-          "versionName": "0.2.1",
-          "notes": "對外供電（V2L）偵測：供電中提醒、剩 30% 提醒、結束統計；V2L 不再被算成充電",
-          "published": "2026-11-17 08:16"
-        },
-        {
-          "versionCode": 2,
-          "versionName": "0.2.0",
-          "notes": "新增「照儀表輸入里程」（儀表卡顯示總里程、充電後里程）；打開畫面時原廠儀表不再變黑；續航改讀公里（原本記成 0）",
-          "published": "2026-11-16 16:32"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "第一版：旅程、充電、停車耗電紀錄；儀表卡資料來源；在車上授權按鈕",
-          "published": "2026-11-16 14:13"
-        }
-      ]
     }
   ],
-  "updated": "2026-11-17 13:45"
+  "updated": "2026-11-17 13:52"
 }
