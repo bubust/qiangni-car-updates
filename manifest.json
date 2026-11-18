@@ -32,37 +32,6 @@
       ]
     },
     {
-      "package": "tw.qiangni.car.eq",
-      "name": "牆泥音響",
-      "versionCode": 3,
-      "versionName": "0.1.2",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.eq-3/tw.qiangni.car.eq-3.apk",
-      "sha256": "89ed59e10084a81c2c1858504b98ea7ee643782097778335dde60a81db1ce920",
-      "size": 2083997,
-      "notes": "閃退／卡住自動回報到雲端",
-      "published": "2026-11-17 17:06",
-      "history": [
-        {
-          "versionCode": 3,
-          "versionName": "0.1.2",
-          "notes": "閃退／卡住自動回報到雲端",
-          "published": "2026-11-17 17:06"
-        },
-        {
-          "versionCode": 2,
-          "versionName": "0.1.1",
-          "notes": "打開畫面時原廠儀表不再變黑",
-          "published": "2026-11-16 16:18"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "第一版：只調音樂的 EQ、情境音效、小憩模式",
-          "published": "2026-11-16 14:27"
-        }
-      ]
-    },
-    {
       "package": "tw.qiangni.car.updater",
       "name": "牆泥更新器",
       "versionCode": 7,
@@ -379,7 +348,44 @@
           "published": "2026-11-16 14:13"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.eq",
+      "name": "牆泥音響",
+      "versionCode": 4,
+      "versionName": "0.1.3",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.eq-4/tw.qiangni.car.eq-4.apk",
+      "sha256": "01b334ccb559901c67a58d3f8efa50c3d9591b01452d7bb64589cc235ff8a440",
+      "size": 2084153,
+      "notes": "只在駕駛使用者跑（保護小電瓶）",
+      "published": "2026-11-18 19:00",
+      "history": [
+        {
+          "versionCode": 4,
+          "versionName": "0.1.3",
+          "notes": "只在駕駛使用者跑（保護小電瓶）",
+          "published": "2026-11-18 19:00"
+        },
+        {
+          "versionCode": 3,
+          "versionName": "0.1.2",
+          "notes": "閃退／卡住自動回報到雲端",
+          "published": "2026-11-17 17:06"
+        },
+        {
+          "versionCode": 2,
+          "versionName": "0.1.1",
+          "notes": "打開畫面時原廠儀表不再變黑",
+          "published": "2026-11-16 16:18"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "第一版：只調音樂的 EQ、情境音效、小憩模式",
+          "published": "2026-11-16 14:27"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-18 18:52"
+  "updated": "2026-11-18 19:00"
 }
