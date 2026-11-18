@@ -390,7 +390,26 @@
           "published": "2026-11-17 07:39"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.voice",
+      "name": "牆泥語音",
+      "versionCode": 1,
+      "versionName": "0.1.0",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.voice-1/tw.qiangni.car.voice-1.apk",
+      "sha256": "f463b06942b6106b0fa70b194d1b61eb40feafe688597da3d441b4d2d96ec277",
+      "size": 2119189,
+      "notes": "新 app：語音助理，按鈕說話問車況、天氣、導航、放音樂，其他問 AI；可設成方向盤語音鍵的數位助理",
+      "published": "2026-11-19 06:11",
+      "history": [
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "新 app：語音助理，按鈕說話問車況、天氣、導航、放音樂，其他問 AI；可設成方向盤語音鍵的數位助理",
+          "published": "2026-11-19 06:11"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-19 06:06"
+  "updated": "2026-11-19 06:11"
 }
