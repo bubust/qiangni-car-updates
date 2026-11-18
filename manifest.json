@@ -304,14 +304,20 @@
     {
       "package": "tw.qiangni.car.key",
       "name": "牆泥鑰匙",
-      "versionCode": 3,
-      "versionName": "0.1.2",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.key-3/tw.qiangni.car.key-3.apk",
-      "sha256": "88b35318e5575910f19e0b5f19dad64d6121a32ca7b4b4ce72b7da61b46e7753",
-      "size": 2085353,
-      "notes": "自動上鎖沒收到盒子回報時，自動重試 2 次（車還熄火才重試）",
-      "published": "2026-11-18 00:15",
+      "versionCode": 4,
+      "versionName": "0.1.3",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.key-4/tw.qiangni.car.key-4.apk",
+      "sha256": "c4accc1e1fe39996da4b5bc0b411a65cf01354872ebf7591082ac6cb67ae88ed",
+      "size": 2089357,
+      "notes": "熄火馬上連盒子（5 秒到才上鎖）、每次熄火過程上傳雲端、被車機關掉會提醒、只在駕駛使用者跑",
+      "published": "2026-11-18 16:23",
       "history": [
+        {
+          "versionCode": 4,
+          "versionName": "0.1.3",
+          "notes": "熄火馬上連盒子（5 秒到才上鎖）、每次熄火過程上傳雲端、被車機關掉會提醒、只在駕駛使用者跑",
+          "published": "2026-11-18 16:23"
+        },
         {
           "versionCode": 3,
           "versionName": "0.1.2",
@@ -333,5 +339,5 @@
       ]
     }
   ],
-  "updated": "2026-11-18 00:15"
+  "updated": "2026-11-18 16:23"
 }
