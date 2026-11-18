@@ -265,16 +265,47 @@
       ]
     },
     {
+      "package": "tw.qiangni.car.bridge",
+      "name": "牆泥車況讀取",
+      "versionCode": 2,
+      "versionName": "0.1.1",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.bridge-2/tw.qiangni.car.bridge-2.apk",
+      "sha256": "eccc4b5b5e542894252a260075c4c05843c90d93ee9e9d0698121073cf38029a",
+      "size": 2070437,
+      "notes": "熄火 2 分鐘後停止讀取（保護小電瓶）、只在駕駛使用者跑",
+      "published": "2026-11-18 17:58",
+      "history": [
+        {
+          "versionCode": 2,
+          "versionName": "0.1.1",
+          "notes": "熄火 2 分鐘後停止讀取（保護小電瓶）、只在駕駛使用者跑",
+          "published": "2026-11-18 17:58"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "新 app：讀胎壓、胎溫、儀表總里程、Trip、12V、高壓電池、車門車窗、交通標誌速限（透過車機自己的 adb，只讀）",
+          "published": "2026-11-17 17:47"
+        }
+      ]
+    },
+    {
       "package": "tw.qiangni.car.logger",
       "name": "牆泥行車紀錄",
-      "versionCode": 10,
-      "versionName": "0.2.8",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.logger-10/tw.qiangni.car.logger-10.apk",
-      "sha256": "2b627bf61d584e3993f453463395bf2fcda118217bceb627a4451e680f607b54",
-      "size": 2293801,
-      "notes": "修正車速單位（這台車傳 km/h），里程、平均／最高速、評分變正確，舊旅程自動除以 3.6 重傳",
-      "published": "2026-11-18 16:27",
+      "versionCode": 11,
+      "versionName": "0.2.9",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.logger-11/tw.qiangni.car.logger-11.apk",
+      "sha256": "51953cf7660e0c6a3655a8068d4c4af918b79dfe1abda225e08ea470acf0dac0",
+      "size": 2295593,
+      "notes": "車況上傳到網頁（里程、胎壓、12V、門窗）、熄火後車機醒太久會記錄、熄火不抓充電站、只在駕駛使用者跑",
+      "published": "2026-11-18 18:04",
       "history": [
+        {
+          "versionCode": 11,
+          "versionName": "0.2.9",
+          "notes": "車況上傳到網頁（里程、胎壓、12V、門窗）、熄火後車機醒太久會記錄、熄火不抓充電站、只在駕駛使用者跑",
+          "published": "2026-11-18 18:04"
+        },
         {
           "versionCode": 10,
           "versionName": "0.2.8",
@@ -324,32 +355,7 @@
           "published": "2026-11-16 14:13"
         }
       ]
-    },
-    {
-      "package": "tw.qiangni.car.bridge",
-      "name": "牆泥車況讀取",
-      "versionCode": 2,
-      "versionName": "0.1.1",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.bridge-2/tw.qiangni.car.bridge-2.apk",
-      "sha256": "eccc4b5b5e542894252a260075c4c05843c90d93ee9e9d0698121073cf38029a",
-      "size": 2070437,
-      "notes": "熄火 2 分鐘後停止讀取（保護小電瓶）、只在駕駛使用者跑",
-      "published": "2026-11-18 17:58",
-      "history": [
-        {
-          "versionCode": 2,
-          "versionName": "0.1.1",
-          "notes": "熄火 2 分鐘後停止讀取（保護小電瓶）、只在駕駛使用者跑",
-          "published": "2026-11-18 17:58"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "新 app：讀胎壓、胎溫、儀表總里程、Trip、12V、高壓電池、車門車窗、交通標誌速限（透過車機自己的 adb，只讀）",
-          "published": "2026-11-17 17:47"
-        }
-      ]
     }
   ],
-  "updated": "2026-11-18 17:58"
+  "updated": "2026-11-18 18:04"
 }
