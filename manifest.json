@@ -257,55 +257,6 @@
       ]
     },
     {
-      "package": "tw.qiangni.car.aa",
-      "name": "牆泥 AA 助手",
-      "versionCode": 6,
-      "versionName": "0.1.5",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.aa-6/tw.qiangni.car.aa-6.apk",
-      "sha256": "c4e1600ed762ab999c035de8506aa9a80e417ba7351ba48f78d6b7889e0e705b",
-      "size": 2110145,
-      "notes": "Android Auto 當掉時把原因（系統紀錄、底層紀錄）上傳雲端",
-      "published": "2026-11-18 22:08",
-      "history": [
-        {
-          "versionCode": 6,
-          "versionName": "0.1.5",
-          "notes": "Android Auto 當掉時把原因（系統紀錄、底層紀錄）上傳雲端",
-          "published": "2026-11-18 22:08"
-        },
-        {
-          "versionCode": 5,
-          "versionName": "0.1.4",
-          "notes": "只在駕駛使用者跑（保護小電瓶）",
-          "published": "2026-11-18 18:31"
-        },
-        {
-          "versionCode": 4,
-          "versionName": "0.1.3",
-          "notes": "修正：開機匯入的歷史閃退不再每次重開都重送雲端（只送 24 小時內的新事件）",
-          "published": "2026-11-18 00:08"
-        },
-        {
-          "versionCode": 3,
-          "versionName": "0.1.2",
-          "notes": "車上就能開浮動視窗、使用紀錄權限；AA 當掉等重要事件自動傳雲端",
-          "published": "2026-11-17 17:13"
-        },
-        {
-          "versionCode": 2,
-          "versionName": "0.1.1",
-          "notes": "記錄倒車影像出現要多久（只計時、不碰倒車畫面）",
-          "published": "2026-11-17 08:30"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "第一版：R 後自動叫回 Android Auto、跳掉／當掉提示卡、事件紀錄＋重開機後問原因",
-          "published": "2026-11-17 07:39"
-        }
-      ]
-    },
-    {
       "package": "tw.qiangni.car.bridge",
       "name": "牆泥車況讀取",
       "versionCode": 4,
@@ -384,7 +335,62 @@
           "published": "2026-11-16 14:27"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.aa",
+      "name": "牆泥 AA 助手",
+      "versionCode": 7,
+      "versionName": "0.1.6",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.aa-7/tw.qiangni.car.aa-7.apk",
+      "sha256": "7de01e7c471c8bc21b91e69a34c590a0bee63a36a36c64de87026ce21f70cea4",
+      "size": 2110249,
+      "notes": "倒車影像每次計時上傳，網頁可看倒車統計",
+      "published": "2026-11-19 06:06",
+      "history": [
+        {
+          "versionCode": 7,
+          "versionName": "0.1.6",
+          "notes": "倒車影像每次計時上傳，網頁可看倒車統計",
+          "published": "2026-11-19 06:06"
+        },
+        {
+          "versionCode": 6,
+          "versionName": "0.1.5",
+          "notes": "Android Auto 當掉時把原因（系統紀錄、底層紀錄）上傳雲端",
+          "published": "2026-11-18 22:08"
+        },
+        {
+          "versionCode": 5,
+          "versionName": "0.1.4",
+          "notes": "只在駕駛使用者跑（保護小電瓶）",
+          "published": "2026-11-18 18:31"
+        },
+        {
+          "versionCode": 4,
+          "versionName": "0.1.3",
+          "notes": "修正：開機匯入的歷史閃退不再每次重開都重送雲端（只送 24 小時內的新事件）",
+          "published": "2026-11-18 00:08"
+        },
+        {
+          "versionCode": 3,
+          "versionName": "0.1.2",
+          "notes": "車上就能開浮動視窗、使用紀錄權限；AA 當掉等重要事件自動傳雲端",
+          "published": "2026-11-17 17:13"
+        },
+        {
+          "versionCode": 2,
+          "versionName": "0.1.1",
+          "notes": "記錄倒車影像出現要多久（只計時、不碰倒車畫面）",
+          "published": "2026-11-17 08:30"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "第一版：R 後自動叫回 Android Auto、跳掉／當掉提示卡、事件紀錄＋重開機後問原因",
+          "published": "2026-11-17 07:39"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-19 05:59"
+  "updated": "2026-11-19 06:06"
 }
