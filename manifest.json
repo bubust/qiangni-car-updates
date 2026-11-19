@@ -436,14 +436,20 @@
     {
       "package": "tw.qiangni.car.bridge",
       "name": "牆泥車況讀取",
-      "versionCode": 8,
-      "versionName": "0.1.7",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.bridge-8/tw.qiangni.car.bridge-8.apk",
-      "sha256": "4e73cf09d5acc3414ecbdbb4fa41dda60953a96eb9ba014231d40b39efcc98c7",
-      "size": 2083341,
-      "notes": "記錄熄火下車時電源和座椅訊號怎麼變（找自動上鎖的觸發點）",
-      "published": "2026-11-19 10:04",
+      "versionCode": 9,
+      "versionName": "0.1.8",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.bridge-9/tw.qiangni.car.bridge-9.apk",
+      "sha256": "34cbaab1677ec701f3d9ba2f9691849f486c4d72c3c45ebb8ef7ea67fc27b268",
+      "size": 2083469,
+      "notes": "讀回收模式（One Pedal）",
+      "published": "2026-11-19 10:20",
       "history": [
+        {
+          "versionCode": 9,
+          "versionName": "0.1.8",
+          "notes": "讀回收模式（One Pedal）",
+          "published": "2026-11-19 10:20"
+        },
         {
           "versionCode": 8,
           "versionName": "0.1.7",
@@ -489,5 +495,5 @@
       ]
     }
   ],
-  "updated": "2026-11-19 10:04"
+  "updated": "2026-11-19 10:20"
 }
