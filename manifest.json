@@ -355,16 +355,113 @@
       ]
     },
     {
+      "package": "tw.qiangni.car.bridge",
+      "name": "牆泥車況讀取",
+      "versionCode": 15,
+      "versionName": "0.1.14",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.bridge-15/tw.qiangni.car.bridge-15.apk",
+      "sha256": "059897aed4443ad3b3439f2e547ecdc4679b594ac11837772a5370279e94f3c6",
+      "size": 2088409,
+      "notes": "按兩下語音鍵改用系統紀錄裡的時間判斷（之前兩下一起送到時會漏掉）",
+      "published": "2026-11-19 13:06",
+      "history": [
+        {
+          "versionCode": 15,
+          "versionName": "0.1.14",
+          "notes": "按兩下語音鍵改用系統紀錄裡的時間判斷（之前兩下一起送到時會漏掉）",
+          "published": "2026-11-19 13:06"
+        },
+        {
+          "versionCode": 14,
+          "versionName": "0.1.13",
+          "notes": "按兩下語音鍵：先收起原廠語音畫面再打開牆泥語音",
+          "published": "2026-11-19 12:34"
+        },
+        {
+          "versionCode": 12,
+          "versionName": "0.1.11",
+          "notes": "電源訊號只在真的變化時才記錄（不再每 3 秒上傳）",
+          "published": "2026-11-19 12:04"
+        },
+        {
+          "versionCode": 11,
+          "versionName": "0.1.10",
+          "notes": "連按兩下方向盤語音鍵 → 打開牆泥語音",
+          "published": "2026-11-19 11:19"
+        },
+        {
+          "versionCode": 10,
+          "versionName": "0.1.9",
+          "notes": "車門判斷修好（實測：開門＝1、全關＝0），車門沒關警示恢復",
+          "published": "2026-11-19 11:04"
+        },
+        {
+          "versionCode": 9,
+          "versionName": "0.1.8",
+          "notes": "讀回收模式（One Pedal）",
+          "published": "2026-11-19 10:20"
+        },
+        {
+          "versionCode": 8,
+          "versionName": "0.1.7",
+          "notes": "記錄熄火下車時電源和座椅訊號怎麼變（找自動上鎖的觸發點）",
+          "published": "2026-11-19 10:04"
+        },
+        {
+          "versionCode": 7,
+          "versionName": "0.1.6",
+          "notes": "可以幫 AA 助手把當掉的 Android Auto 關掉重開；車門警示先停用（讀到的值不準）",
+          "published": "2026-11-19 09:21"
+        },
+        {
+          "versionCode": 5,
+          "versionName": "0.1.4",
+          "notes": "停車時大電池幫小電瓶充電會記下來（手機網頁報表看得到）",
+          "published": "2026-11-19 07:16"
+        },
+        {
+          "versionCode": 4,
+          "versionName": "0.1.3",
+          "notes": "車門改讀原廠全車門開關；車窗開門微降不再誤報；提供 Android Auto 當掉時的系統紀錄",
+          "published": "2026-11-18 22:44"
+        },
+        {
+          "versionCode": 3,
+          "versionName": "0.1.2",
+          "notes": "小電瓶健康：醒來量靜置電壓、讀 12V 狀態；熄火 10／30 分鐘還醒著就記錄是誰讓車機醒著",
+          "published": "2026-11-18 18:44"
+        },
+        {
+          "versionCode": 2,
+          "versionName": "0.1.1",
+          "notes": "熄火 2 分鐘後停止讀取（保護小電瓶）、只在駕駛使用者跑",
+          "published": "2026-11-18 17:58"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "新 app：讀胎壓、胎溫、儀表總里程、Trip、12V、高壓電池、車門車窗、交通標誌速限（透過車機自己的 adb，只讀）",
+          "published": "2026-11-17 17:47"
+        }
+      ]
+    },
+    {
       "package": "tw.qiangni.car.cluster",
       "name": "牆泥儀表卡",
-      "versionCode": 21,
-      "versionName": "0.3.18",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.cluster-21/tw.qiangni.car.cluster-21.apk",
-      "sha256": "28665e68f240ccfb3adc0831bfc58de17ca7ee4243c0348a635f93327d75d0f0",
-      "size": 2170797,
-      "notes": "右卡專顯導航（放大）、服務區距離、速限、快充；檔位移到左卡；不再另外顯示電量；測速/超速兩張卡一起閃",
-      "published": "2026-11-19 12:48",
+      "versionCode": 22,
+      "versionName": "0.3.19",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.cluster-22/tw.qiangni.car.cluster-22.apk",
+      "sha256": "408f0441c09d6dbb1778354b0e078fbe6e697a4ccb7b4043ac4a9007f40edf18",
+      "size": 2171981,
+      "notes": "上方細條排版修好（字不再擠在一起）；設定頁可以單獨變寬、變窄、變高、變矮",
+      "published": "2026-11-19 13:13",
       "history": [
+        {
+          "versionCode": 22,
+          "versionName": "0.3.19",
+          "notes": "上方細條排版修好（字不再擠在一起）；設定頁可以單獨變寬、變窄、變高、變矮",
+          "published": "2026-11-19 13:13"
+        },
         {
           "versionCode": 21,
           "versionName": "0.3.18",
@@ -492,98 +589,7 @@
           "published": "2026-11-14 00:42"
         }
       ]
-    },
-    {
-      "package": "tw.qiangni.car.bridge",
-      "name": "牆泥車況讀取",
-      "versionCode": 15,
-      "versionName": "0.1.14",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.bridge-15/tw.qiangni.car.bridge-15.apk",
-      "sha256": "059897aed4443ad3b3439f2e547ecdc4679b594ac11837772a5370279e94f3c6",
-      "size": 2088409,
-      "notes": "按兩下語音鍵改用系統紀錄裡的時間判斷（之前兩下一起送到時會漏掉）",
-      "published": "2026-11-19 13:06",
-      "history": [
-        {
-          "versionCode": 15,
-          "versionName": "0.1.14",
-          "notes": "按兩下語音鍵改用系統紀錄裡的時間判斷（之前兩下一起送到時會漏掉）",
-          "published": "2026-11-19 13:06"
-        },
-        {
-          "versionCode": 14,
-          "versionName": "0.1.13",
-          "notes": "按兩下語音鍵：先收起原廠語音畫面再打開牆泥語音",
-          "published": "2026-11-19 12:34"
-        },
-        {
-          "versionCode": 12,
-          "versionName": "0.1.11",
-          "notes": "電源訊號只在真的變化時才記錄（不再每 3 秒上傳）",
-          "published": "2026-11-19 12:04"
-        },
-        {
-          "versionCode": 11,
-          "versionName": "0.1.10",
-          "notes": "連按兩下方向盤語音鍵 → 打開牆泥語音",
-          "published": "2026-11-19 11:19"
-        },
-        {
-          "versionCode": 10,
-          "versionName": "0.1.9",
-          "notes": "車門判斷修好（實測：開門＝1、全關＝0），車門沒關警示恢復",
-          "published": "2026-11-19 11:04"
-        },
-        {
-          "versionCode": 9,
-          "versionName": "0.1.8",
-          "notes": "讀回收模式（One Pedal）",
-          "published": "2026-11-19 10:20"
-        },
-        {
-          "versionCode": 8,
-          "versionName": "0.1.7",
-          "notes": "記錄熄火下車時電源和座椅訊號怎麼變（找自動上鎖的觸發點）",
-          "published": "2026-11-19 10:04"
-        },
-        {
-          "versionCode": 7,
-          "versionName": "0.1.6",
-          "notes": "可以幫 AA 助手把當掉的 Android Auto 關掉重開；車門警示先停用（讀到的值不準）",
-          "published": "2026-11-19 09:21"
-        },
-        {
-          "versionCode": 5,
-          "versionName": "0.1.4",
-          "notes": "停車時大電池幫小電瓶充電會記下來（手機網頁報表看得到）",
-          "published": "2026-11-19 07:16"
-        },
-        {
-          "versionCode": 4,
-          "versionName": "0.1.3",
-          "notes": "車門改讀原廠全車門開關；車窗開門微降不再誤報；提供 Android Auto 當掉時的系統紀錄",
-          "published": "2026-11-18 22:44"
-        },
-        {
-          "versionCode": 3,
-          "versionName": "0.1.2",
-          "notes": "小電瓶健康：醒來量靜置電壓、讀 12V 狀態；熄火 10／30 分鐘還醒著就記錄是誰讓車機醒著",
-          "published": "2026-11-18 18:44"
-        },
-        {
-          "versionCode": 2,
-          "versionName": "0.1.1",
-          "notes": "熄火 2 分鐘後停止讀取（保護小電瓶）、只在駕駛使用者跑",
-          "published": "2026-11-18 17:58"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "新 app：讀胎壓、胎溫、儀表總里程、Trip、12V、高壓電池、車門車窗、交通標誌速限（透過車機自己的 adb，只讀）",
-          "published": "2026-11-17 17:47"
-        }
-      ]
     }
   ],
-  "updated": "2026-11-19 13:06"
+  "updated": "2026-11-19 13:13"
 }
