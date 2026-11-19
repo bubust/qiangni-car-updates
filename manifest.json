@@ -562,14 +562,20 @@
     {
       "package": "tw.qiangni.car.bridge",
       "name": "牆泥車況讀取",
-      "versionCode": 22,
-      "versionName": "0.1.21",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.bridge-22/tw.qiangni.car.bridge-22.apk",
-      "sha256": "520ee12ec519517d5150174dbd2d2aaa473581e3369cd159eee4e8c8f7117856",
-      "size": 2091773,
-      "notes": "停車後自動關掉大聲公（它一直開著音訊、讓車機睡不著）",
-      "published": "2026-11-19 19:21",
+      "versionCode": 23,
+      "versionName": "0.1.22",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.bridge-23/tw.qiangni.car.bridge-23.apk",
+      "sha256": "26a39108de58a6dd852cc5ec10bfe69628281a8cc1166328c8938f07b4f837de",
+      "size": 2091805,
+      "notes": "記錄車子為什麼醒來、小電瓶補電訊號（查停車一直醒的原因）",
+      "published": "2026-11-19 19:35",
       "history": [
+        {
+          "versionCode": 23,
+          "versionName": "0.1.22",
+          "notes": "記錄車子為什麼醒來、小電瓶補電訊號（查停車一直醒的原因）",
+          "published": "2026-11-19 19:35"
+        },
         {
           "versionCode": 22,
           "versionName": "0.1.21",
@@ -687,5 +693,5 @@
       ]
     }
   ],
-  "updated": "2026-11-19 19:21"
+  "updated": "2026-11-19 19:35"
 }
