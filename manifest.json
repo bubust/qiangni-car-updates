@@ -240,187 +240,6 @@
       ]
     },
     {
-      "package": "tw.qiangni.car.cluster",
-      "name": "牆泥儀表卡",
-      "versionCode": 28,
-      "versionName": "0.3.25",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.cluster-28/tw.qiangni.car.cluster-28.apk",
-      "sha256": "39948e750c3291a846d4d0a9c3385946bc3f1cce7418557f80930084d622d666",
-      "size": 2192901,
-      "notes": "導航卡拿掉下面的進度條",
-      "published": "2026-11-19 19:43",
-      "history": [
-        {
-          "versionCode": 28,
-          "versionName": "0.3.25",
-          "notes": "導航卡拿掉下面的進度條",
-          "published": "2026-11-19 19:43"
-        },
-        {
-          "versionCode": 27,
-          "versionName": "0.3.24",
-          "notes": "新項目：前方塞車、附近停車場空位；國道上前方塞車會自動出現在上方細條",
-          "published": "2026-11-19 17:53"
-        },
-        {
-          "versionCode": 26,
-          "versionName": "0.3.23",
-          "notes": "照手機網頁拖拉的排版自動套用；新項目：剩餘電量 kWh、巡航、油門、車速",
-          "published": "2026-11-19 16:43"
-        },
-        {
-          "versionCode": 25,
-          "versionName": "0.3.22",
-          "notes": "左卡先不顯示回收等級（讀到的值跟儀表對不上）",
-          "published": "2026-11-19 15:10"
-        },
-        {
-          "versionCode": 24,
-          "versionName": "0.3.21",
-          "notes": "導航指示字改成最多兩行、不再縮到看不見；服務區、快充移到中間細條",
-          "published": "2026-11-19 14:51"
-        },
-        {
-          "versionCode": 23,
-          "versionName": "0.3.20",
-          "notes": "導航放大，填滿右卡",
-          "published": "2026-11-19 14:38"
-        },
-        {
-          "versionCode": 22,
-          "versionName": "0.3.19",
-          "notes": "上方細條排版修好（字不再擠在一起）；設定頁可以單獨變寬、變窄、變高、變矮",
-          "published": "2026-11-19 13:13"
-        },
-        {
-          "versionCode": 21,
-          "versionName": "0.3.18",
-          "notes": "右卡專顯導航（放大）、服務區距離、速限、快充；檔位移到左卡；不再另外顯示電量；測速/超速兩張卡一起閃",
-          "published": "2026-11-19 12:48"
-        },
-        {
-          "versionCode": 20,
-          "versionName": "0.3.17",
-          "notes": "回收模式 5 也顯示 One Pedal",
-          "published": "2026-11-19 12:18"
-        },
-        {
-          "versionCode": 19,
-          "versionName": "0.3.16",
-          "notes": "超速提醒加回來（速限讀對了）；左卡顯示回收等級 Lv0～Lv4／One Pedal",
-          "published": "2026-11-19 10:50"
-        },
-        {
-          "versionCode": 18,
-          "versionName": "0.3.15",
-          "notes": "左卡加大蓋住原廠 One Pedal／Range／電量那欄，左上顯示 One Pedal，加原廠續航",
-          "published": "2026-11-19 10:35"
-        },
-        {
-          "versionCode": 17,
-          "versionName": "0.3.14",
-          "notes": "第二張卡（左邊「自本次啟動」位置，顯示車況，內容可自己挑；設定頁可關、可調位置）",
-          "published": "2026-11-19 09:28"
-        },
-        {
-          "versionCode": 16,
-          "versionName": "0.3.13",
-          "notes": "拿掉時間：左邊檔位框、右邊大字電量；神盾測速照相的警示也顯示在卡上並閃爍",
-          "published": "2026-11-19 09:05"
-        },
-        {
-          "versionCode": 15,
-          "versionName": "0.3.12",
-          "notes": "測速照相、超速時卡片紅色閃爍；提示文字改清楚",
-          "published": "2026-11-19 08:18"
-        },
-        {
-          "versionCode": 14,
-          "versionName": "0.3.11",
-          "notes": "導航卡改詳細：大箭頭、距離、怎麼走、還要幾分鐘幾公里幾點到、進度條；超速改顯示「你的車速／限速」",
-          "published": "2026-11-19 08:03"
-        },
-        {
-          "versionCode": 13,
-          "versionName": "0.3.10",
-          "notes": "檔位左、時間右；最多 5 行；沒設導航只顯示道路；開車多一行電量和近 10 km 耗電",
-          "published": "2026-11-19 07:50"
-        },
-        {
-          "versionCode": 12,
-          "versionName": "0.3.9",
-          "notes": "卡片真的不透明（原本被系統限制 80%）",
-          "published": "2026-11-18 21:24"
-        },
-        {
-          "versionCode": 11,
-          "versionName": "0.3.8",
-          "notes": "只在駕駛使用者跑（保護小電瓶）",
-          "published": "2026-11-18 18:11"
-        },
-        {
-          "versionCode": 10,
-          "versionName": "0.3.7",
-          "notes": "儀表卡顯示胎壓/速限/12V/空品/平穩度/到家剩電/保養；警示優先序 測速>超速>胎壓故障燈>門窗；國道情報板顯示在下方",
-          "published": "2026-11-18 00:01"
-        },
-        {
-          "versionCode": 9,
-          "versionName": "0.3.6",
-          "notes": "閃退／卡住自動回報到雲端",
-          "published": "2026-11-17 16:59"
-        },
-        {
-          "versionCode": 8,
-          "versionName": "0.3.5",
-          "notes": "卡片內容可自己挑（設定頁：行駛中／P 檔，最多 4 行）；這台車沒有功率資料：預設改顯示續航估、電量、本趟耗電、本趟里程，功率顯示 --",
-          "published": "2026-11-17 13:52"
-        },
-        {
-          "versionCode": 7,
-          "versionName": "0.3.4",
-          "notes": "打方向燈時盲區鏡頭會蓋在儀表卡上面（卡片改到比她的視窗低一層）",
-          "published": "2026-11-17 08:42"
-        },
-        {
-          "versionCode": 6,
-          "versionName": "0.3.3",
-          "notes": "對外供電中顯示供電 kW、已用 kWh、還能用多久",
-          "published": "2026-11-17 08:23"
-        },
-        {
-          "versionCode": 5,
-          "versionName": "0.3.2",
-          "notes": "新增可調透明度（調低一點，打方向燈時看得到後面的盲區鏡頭）；位置大小可即時調整；修好不透明",
-          "published": "2026-11-16 17:37"
-        },
-        {
-          "versionCode": 4,
-          "versionName": "0.3.1",
-          "notes": "卡片改真的不透明（修好疊字）、可在設定頁即時移動／放大縮小、字體隨大小變大、可蓋過檔位",
-          "published": "2026-11-16 17:22"
-        },
-        {
-          "versionCode": 3,
-          "versionName": "0.3.0",
-          "notes": "卡片改不透明，加上儀表的「充電後」和「總里程」；打開設定畫面時原廠儀表不再變黑；續航改讀公里（原本顯示 0 km）",
-          "published": "2026-11-16 16:25"
-        },
-        {
-          "versionCode": 2,
-          "versionName": "0.2.0",
-          "notes": "依情境換卡：出發簡報、行駛回收和實際續航、充電、0–100；在車上授權按鈕",
-          "published": "2026-11-16 14:21"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "第一版（驗證用）：在儀表的音樂卡位置顯示時鐘、電量、續航、即時功率、檔位。R 檔自動隱藏；設定畫面可換位置（音樂卡／行程卡）、顯示外框、開機自動啟動開關；「全部關閉」一鍵恢復原廠儀表；連續閃退 3 次就停止自動啟動。第一次裝完要用車機工具選單 5 授權。",
-          "published": "2026-11-14 00:42"
-        }
-      ]
-    },
-    {
       "package": "tw.qiangni.car.bridge",
       "name": "牆泥車況讀取",
       "versionCode": 24,
@@ -709,7 +528,194 @@
           "published": "2026-11-16 14:13"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.cluster",
+      "name": "牆泥儀表卡",
+      "versionCode": 29,
+      "versionName": "0.3.26",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.cluster-29/tw.qiangni.car.cluster-29.apk",
+      "sha256": "d90e455e1166c4ad8e132b1ff74486dbd335e1ea14ce7923ded91179e3708365",
+      "size": 2192941,
+      "notes": "導航字放大；只有路名時也維持導航卡（顯示直行）",
+      "published": "2026-11-19 22:22",
+      "history": [
+        {
+          "versionCode": 29,
+          "versionName": "0.3.26",
+          "notes": "導航字放大；只有路名時也維持導航卡（顯示直行）",
+          "published": "2026-11-19 22:22"
+        },
+        {
+          "versionCode": 28,
+          "versionName": "0.3.25",
+          "notes": "導航卡拿掉下面的進度條",
+          "published": "2026-11-19 19:43"
+        },
+        {
+          "versionCode": 27,
+          "versionName": "0.3.24",
+          "notes": "新項目：前方塞車、附近停車場空位；國道上前方塞車會自動出現在上方細條",
+          "published": "2026-11-19 17:53"
+        },
+        {
+          "versionCode": 26,
+          "versionName": "0.3.23",
+          "notes": "照手機網頁拖拉的排版自動套用；新項目：剩餘電量 kWh、巡航、油門、車速",
+          "published": "2026-11-19 16:43"
+        },
+        {
+          "versionCode": 25,
+          "versionName": "0.3.22",
+          "notes": "左卡先不顯示回收等級（讀到的值跟儀表對不上）",
+          "published": "2026-11-19 15:10"
+        },
+        {
+          "versionCode": 24,
+          "versionName": "0.3.21",
+          "notes": "導航指示字改成最多兩行、不再縮到看不見；服務區、快充移到中間細條",
+          "published": "2026-11-19 14:51"
+        },
+        {
+          "versionCode": 23,
+          "versionName": "0.3.20",
+          "notes": "導航放大，填滿右卡",
+          "published": "2026-11-19 14:38"
+        },
+        {
+          "versionCode": 22,
+          "versionName": "0.3.19",
+          "notes": "上方細條排版修好（字不再擠在一起）；設定頁可以單獨變寬、變窄、變高、變矮",
+          "published": "2026-11-19 13:13"
+        },
+        {
+          "versionCode": 21,
+          "versionName": "0.3.18",
+          "notes": "右卡專顯導航（放大）、服務區距離、速限、快充；檔位移到左卡；不再另外顯示電量；測速/超速兩張卡一起閃",
+          "published": "2026-11-19 12:48"
+        },
+        {
+          "versionCode": 20,
+          "versionName": "0.3.17",
+          "notes": "回收模式 5 也顯示 One Pedal",
+          "published": "2026-11-19 12:18"
+        },
+        {
+          "versionCode": 19,
+          "versionName": "0.3.16",
+          "notes": "超速提醒加回來（速限讀對了）；左卡顯示回收等級 Lv0～Lv4／One Pedal",
+          "published": "2026-11-19 10:50"
+        },
+        {
+          "versionCode": 18,
+          "versionName": "0.3.15",
+          "notes": "左卡加大蓋住原廠 One Pedal／Range／電量那欄，左上顯示 One Pedal，加原廠續航",
+          "published": "2026-11-19 10:35"
+        },
+        {
+          "versionCode": 17,
+          "versionName": "0.3.14",
+          "notes": "第二張卡（左邊「自本次啟動」位置，顯示車況，內容可自己挑；設定頁可關、可調位置）",
+          "published": "2026-11-19 09:28"
+        },
+        {
+          "versionCode": 16,
+          "versionName": "0.3.13",
+          "notes": "拿掉時間：左邊檔位框、右邊大字電量；神盾測速照相的警示也顯示在卡上並閃爍",
+          "published": "2026-11-19 09:05"
+        },
+        {
+          "versionCode": 15,
+          "versionName": "0.3.12",
+          "notes": "測速照相、超速時卡片紅色閃爍；提示文字改清楚",
+          "published": "2026-11-19 08:18"
+        },
+        {
+          "versionCode": 14,
+          "versionName": "0.3.11",
+          "notes": "導航卡改詳細：大箭頭、距離、怎麼走、還要幾分鐘幾公里幾點到、進度條；超速改顯示「你的車速／限速」",
+          "published": "2026-11-19 08:03"
+        },
+        {
+          "versionCode": 13,
+          "versionName": "0.3.10",
+          "notes": "檔位左、時間右；最多 5 行；沒設導航只顯示道路；開車多一行電量和近 10 km 耗電",
+          "published": "2026-11-19 07:50"
+        },
+        {
+          "versionCode": 12,
+          "versionName": "0.3.9",
+          "notes": "卡片真的不透明（原本被系統限制 80%）",
+          "published": "2026-11-18 21:24"
+        },
+        {
+          "versionCode": 11,
+          "versionName": "0.3.8",
+          "notes": "只在駕駛使用者跑（保護小電瓶）",
+          "published": "2026-11-18 18:11"
+        },
+        {
+          "versionCode": 10,
+          "versionName": "0.3.7",
+          "notes": "儀表卡顯示胎壓/速限/12V/空品/平穩度/到家剩電/保養；警示優先序 測速>超速>胎壓故障燈>門窗；國道情報板顯示在下方",
+          "published": "2026-11-18 00:01"
+        },
+        {
+          "versionCode": 9,
+          "versionName": "0.3.6",
+          "notes": "閃退／卡住自動回報到雲端",
+          "published": "2026-11-17 16:59"
+        },
+        {
+          "versionCode": 8,
+          "versionName": "0.3.5",
+          "notes": "卡片內容可自己挑（設定頁：行駛中／P 檔，最多 4 行）；這台車沒有功率資料：預設改顯示續航估、電量、本趟耗電、本趟里程，功率顯示 --",
+          "published": "2026-11-17 13:52"
+        },
+        {
+          "versionCode": 7,
+          "versionName": "0.3.4",
+          "notes": "打方向燈時盲區鏡頭會蓋在儀表卡上面（卡片改到比她的視窗低一層）",
+          "published": "2026-11-17 08:42"
+        },
+        {
+          "versionCode": 6,
+          "versionName": "0.3.3",
+          "notes": "對外供電中顯示供電 kW、已用 kWh、還能用多久",
+          "published": "2026-11-17 08:23"
+        },
+        {
+          "versionCode": 5,
+          "versionName": "0.3.2",
+          "notes": "新增可調透明度（調低一點，打方向燈時看得到後面的盲區鏡頭）；位置大小可即時調整；修好不透明",
+          "published": "2026-11-16 17:37"
+        },
+        {
+          "versionCode": 4,
+          "versionName": "0.3.1",
+          "notes": "卡片改真的不透明（修好疊字）、可在設定頁即時移動／放大縮小、字體隨大小變大、可蓋過檔位",
+          "published": "2026-11-16 17:22"
+        },
+        {
+          "versionCode": 3,
+          "versionName": "0.3.0",
+          "notes": "卡片改不透明，加上儀表的「充電後」和「總里程」；打開設定畫面時原廠儀表不再變黑；續航改讀公里（原本顯示 0 km）",
+          "published": "2026-11-16 16:25"
+        },
+        {
+          "versionCode": 2,
+          "versionName": "0.2.0",
+          "notes": "依情境換卡：出發簡報、行駛回收和實際續航、充電、0–100；在車上授權按鈕",
+          "published": "2026-11-16 14:21"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "第一版（驗證用）：在儀表的音樂卡位置顯示時鐘、電量、續航、即時功率、檔位。R 檔自動隱藏；設定畫面可換位置（音樂卡／行程卡）、顯示外框、開機自動啟動開關；「全部關閉」一鍵恢復原廠儀表；連續閃退 3 次就停止自動啟動。第一次裝完要用車機工具選單 5 授權。",
+          "published": "2026-11-14 00:42"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-19 22:14"
+  "updated": "2026-11-19 22:22"
 }
