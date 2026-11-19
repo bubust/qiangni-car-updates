@@ -234,145 +234,6 @@
       ]
     },
     {
-      "package": "tw.qiangni.car.logger",
-      "name": "牆泥行車紀錄",
-      "versionCode": 24,
-      "versionName": "0.2.22",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.logger-24/tw.qiangni.car.logger-24.apk",
-      "sha256": "3acf6b88ecc2cc663258fe3a7952f637dee4e36356738eef4c55cef7e5dc4bb1",
-      "size": 2310077,
-      "notes": "把手機網頁排好的儀表卡版面帶給儀表卡（每 2 分鐘同步）；車速、kWh、巡航",
-      "published": "2026-11-19 16:35",
-      "history": [
-        {
-          "versionCode": 24,
-          "versionName": "0.2.22",
-          "notes": "把手機網頁排好的儀表卡版面帶給儀表卡（每 2 分鐘同步）；車速、kWh、巡航",
-          "published": "2026-11-19 16:35"
-        },
-        {
-          "versionCode": 23,
-          "versionName": "0.2.21",
-          "notes": "快速道路上算出前方服務區還有幾公里",
-          "published": "2026-11-19 12:41"
-        },
-        {
-          "versionCode": 21,
-          "versionName": "0.2.19",
-          "notes": "續航估不會超過原廠續航 1.1 倍",
-          "published": "2026-11-19 12:11"
-        },
-        {
-          "versionCode": 20,
-          "versionName": "0.2.18",
-          "notes": "修正：神盾的常駐通知不再被當成測速警示（卡片不會一直閃）",
-          "published": "2026-11-19 11:56"
-        },
-        {
-          "versionCode": 19,
-          "versionName": "0.2.17",
-          "notes": "速限讀法修正（車上傳的是以 10 為單位）",
-          "published": "2026-11-19 10:43"
-        },
-        {
-          "versionCode": 18,
-          "versionName": "0.2.16",
-          "notes": "把回收模式傳給儀表卡",
-          "published": "2026-11-19 10:28"
-        },
-        {
-          "versionCode": 17,
-          "versionName": "0.2.15",
-          "notes": "讀神盾測速照相的通知給儀表卡",
-          "published": "2026-11-19 09:13"
-        },
-        {
-          "versionCode": 16,
-          "versionName": "0.2.14",
-          "notes": "導航讀出剩餘時間、公里、到達時間和轉彎圖；國道路名修正",
-          "published": "2026-11-19 08:11"
-        },
-        {
-          "versionCode": 15,
-          "versionName": "0.2.13",
-          "notes": "續航估一上路就有：還沒開滿 3 km 先用以前的平均耗電",
-          "published": "2026-11-19 07:50"
-        },
-        {
-          "versionCode": 14,
-          "versionName": "0.2.12",
-          "notes": "給牆泥語音金鑰和家的位置（語音助理要用）",
-          "published": "2026-11-19 07:09"
-        },
-        {
-          "versionCode": 13,
-          "versionName": "0.2.11",
-          "notes": "導航卡：高速公路只有路名時顯示「沿 國道1號 直行」",
-          "published": "2026-11-18 21:31"
-        },
-        {
-          "versionCode": 12,
-          "versionName": "0.2.10",
-          "notes": "小電瓶電壓偏低通知（Telegram）、上傳 12V 狀態到網頁",
-          "published": "2026-11-18 18:52"
-        },
-        {
-          "versionCode": 11,
-          "versionName": "0.2.9",
-          "notes": "車況上傳到網頁（里程、胎壓、12V、門窗）、熄火後車機醒太久會記錄、熄火不抓充電站、只在駕駛使用者跑",
-          "published": "2026-11-18 18:04"
-        },
-        {
-          "versionCode": 10,
-          "versionName": "0.2.8",
-          "notes": "修正車速單位（這台車傳 km/h），里程、平均／最高速、評分變正確，舊旅程自動除以 3.6 重傳",
-          "published": "2026-11-18 16:27"
-        },
-        {
-          "versionCode": 9,
-          "versionName": "0.2.7",
-          "notes": "車況讀取整合（真實總里程/胎壓/12V/高壓功率/交通標誌速限/門窗）＋測速照相＋空氣品質＋平穩度分數＋到家剩電%＋國道情報板＋保養提醒；修正導航待機通知重複取樣；門窗狀態上傳手機小工具",
-          "published": "2026-11-17 23:55"
-        },
-        {
-          "versionCode": 6,
-          "versionName": "0.2.4",
-          "notes": "在車上登入雲端（email＋密碼，不用連電腦）；儀表導航卡改讀車上的 Google 地圖；收集所有 app 的閃退回報上傳雲端＋Telegram",
-          "published": "2026-11-17 16:52"
-        },
-        {
-          "versionCode": 5,
-          "versionName": "0.2.3",
-          "notes": "加「車輛資料探索」：列出讀得到的所有車輛屬性和即時值，用來找功率、電池容量",
-          "published": "2026-11-17 15:21"
-        },
-        {
-          "versionCode": 4,
-          "versionName": "0.2.2",
-          "notes": "這台車沒有功率資料：改用最近 10 km 掉幾 % 電算續航估和耗電；功率顯示 -- 不再假裝 0",
-          "published": "2026-11-17 13:45"
-        },
-        {
-          "versionCode": 3,
-          "versionName": "0.2.1",
-          "notes": "對外供電（V2L）偵測：供電中提醒、剩 30% 提醒、結束統計；V2L 不再被算成充電",
-          "published": "2026-11-17 08:16"
-        },
-        {
-          "versionCode": 2,
-          "versionName": "0.2.0",
-          "notes": "新增「照儀表輸入里程」（儀表卡顯示總里程、充電後里程）；打開畫面時原廠儀表不再變黑；續航改讀公里（原本記成 0）",
-          "published": "2026-11-16 16:32"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "第一版：旅程、充電、停車耗電紀錄；儀表卡資料來源；在車上授權按鈕",
-          "published": "2026-11-16 14:13"
-        }
-      ]
-    },
-    {
       "package": "tw.qiangni.car.cluster",
       "name": "牆泥儀表卡",
       "versionCode": 26,
@@ -661,7 +522,152 @@
           "published": "2026-11-17 17:47"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.logger",
+      "name": "牆泥行車紀錄",
+      "versionCode": 25,
+      "versionName": "0.2.23",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.logger-25/tw.qiangni.car.logger-25.apk",
+      "sha256": "8bac8e38f8ed5f1f9e846a74e8659488d2c4b63ac4d456e53b6faa3b44c9d49e",
+      "size": 2329497,
+      "notes": "TDX：國道前方塞車（偵測器車速）、市區附近停車場空位",
+      "published": "2026-11-19 17:46",
+      "history": [
+        {
+          "versionCode": 25,
+          "versionName": "0.2.23",
+          "notes": "TDX：國道前方塞車（偵測器車速）、市區附近停車場空位",
+          "published": "2026-11-19 17:46"
+        },
+        {
+          "versionCode": 24,
+          "versionName": "0.2.22",
+          "notes": "把手機網頁排好的儀表卡版面帶給儀表卡（每 2 分鐘同步）；車速、kWh、巡航",
+          "published": "2026-11-19 16:35"
+        },
+        {
+          "versionCode": 23,
+          "versionName": "0.2.21",
+          "notes": "快速道路上算出前方服務區還有幾公里",
+          "published": "2026-11-19 12:41"
+        },
+        {
+          "versionCode": 21,
+          "versionName": "0.2.19",
+          "notes": "續航估不會超過原廠續航 1.1 倍",
+          "published": "2026-11-19 12:11"
+        },
+        {
+          "versionCode": 20,
+          "versionName": "0.2.18",
+          "notes": "修正：神盾的常駐通知不再被當成測速警示（卡片不會一直閃）",
+          "published": "2026-11-19 11:56"
+        },
+        {
+          "versionCode": 19,
+          "versionName": "0.2.17",
+          "notes": "速限讀法修正（車上傳的是以 10 為單位）",
+          "published": "2026-11-19 10:43"
+        },
+        {
+          "versionCode": 18,
+          "versionName": "0.2.16",
+          "notes": "把回收模式傳給儀表卡",
+          "published": "2026-11-19 10:28"
+        },
+        {
+          "versionCode": 17,
+          "versionName": "0.2.15",
+          "notes": "讀神盾測速照相的通知給儀表卡",
+          "published": "2026-11-19 09:13"
+        },
+        {
+          "versionCode": 16,
+          "versionName": "0.2.14",
+          "notes": "導航讀出剩餘時間、公里、到達時間和轉彎圖；國道路名修正",
+          "published": "2026-11-19 08:11"
+        },
+        {
+          "versionCode": 15,
+          "versionName": "0.2.13",
+          "notes": "續航估一上路就有：還沒開滿 3 km 先用以前的平均耗電",
+          "published": "2026-11-19 07:50"
+        },
+        {
+          "versionCode": 14,
+          "versionName": "0.2.12",
+          "notes": "給牆泥語音金鑰和家的位置（語音助理要用）",
+          "published": "2026-11-19 07:09"
+        },
+        {
+          "versionCode": 13,
+          "versionName": "0.2.11",
+          "notes": "導航卡：高速公路只有路名時顯示「沿 國道1號 直行」",
+          "published": "2026-11-18 21:31"
+        },
+        {
+          "versionCode": 12,
+          "versionName": "0.2.10",
+          "notes": "小電瓶電壓偏低通知（Telegram）、上傳 12V 狀態到網頁",
+          "published": "2026-11-18 18:52"
+        },
+        {
+          "versionCode": 11,
+          "versionName": "0.2.9",
+          "notes": "車況上傳到網頁（里程、胎壓、12V、門窗）、熄火後車機醒太久會記錄、熄火不抓充電站、只在駕駛使用者跑",
+          "published": "2026-11-18 18:04"
+        },
+        {
+          "versionCode": 10,
+          "versionName": "0.2.8",
+          "notes": "修正車速單位（這台車傳 km/h），里程、平均／最高速、評分變正確，舊旅程自動除以 3.6 重傳",
+          "published": "2026-11-18 16:27"
+        },
+        {
+          "versionCode": 9,
+          "versionName": "0.2.7",
+          "notes": "車況讀取整合（真實總里程/胎壓/12V/高壓功率/交通標誌速限/門窗）＋測速照相＋空氣品質＋平穩度分數＋到家剩電%＋國道情報板＋保養提醒；修正導航待機通知重複取樣；門窗狀態上傳手機小工具",
+          "published": "2026-11-17 23:55"
+        },
+        {
+          "versionCode": 6,
+          "versionName": "0.2.4",
+          "notes": "在車上登入雲端（email＋密碼，不用連電腦）；儀表導航卡改讀車上的 Google 地圖；收集所有 app 的閃退回報上傳雲端＋Telegram",
+          "published": "2026-11-17 16:52"
+        },
+        {
+          "versionCode": 5,
+          "versionName": "0.2.3",
+          "notes": "加「車輛資料探索」：列出讀得到的所有車輛屬性和即時值，用來找功率、電池容量",
+          "published": "2026-11-17 15:21"
+        },
+        {
+          "versionCode": 4,
+          "versionName": "0.2.2",
+          "notes": "這台車沒有功率資料：改用最近 10 km 掉幾 % 電算續航估和耗電；功率顯示 -- 不再假裝 0",
+          "published": "2026-11-17 13:45"
+        },
+        {
+          "versionCode": 3,
+          "versionName": "0.2.1",
+          "notes": "對外供電（V2L）偵測：供電中提醒、剩 30% 提醒、結束統計；V2L 不再被算成充電",
+          "published": "2026-11-17 08:16"
+        },
+        {
+          "versionCode": 2,
+          "versionName": "0.2.0",
+          "notes": "新增「照儀表輸入里程」（儀表卡顯示總里程、充電後里程）；打開畫面時原廠儀表不再變黑；續航改讀公里（原本記成 0）",
+          "published": "2026-11-16 16:32"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "第一版：旅程、充電、停車耗電紀錄；儀表卡資料來源；在車上授權按鈕",
+          "published": "2026-11-16 14:13"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-19 17:38"
+  "updated": "2026-11-19 17:46"
 }
