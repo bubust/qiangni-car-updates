@@ -454,14 +454,20 @@
     {
       "package": "tw.qiangni.car.cluster",
       "name": "牆泥儀表卡",
-      "versionCode": 23,
-      "versionName": "0.3.20",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.cluster-23/tw.qiangni.car.cluster-23.apk",
-      "sha256": "30b916fce3ce035de69b9f1a4831774807018b29b856f3bb8764e20501406f93",
-      "size": 2172097,
-      "notes": "導航放大，填滿右卡",
-      "published": "2026-11-19 14:38",
+      "versionCode": 24,
+      "versionName": "0.3.21",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.cluster-24/tw.qiangni.car.cluster-24.apk",
+      "sha256": "37adc3292310184974d707de14ff4d93d3fdb92bcd4f775905e55fd7482ed824",
+      "size": 2173553,
+      "notes": "導航指示字改成最多兩行、不再縮到看不見；服務區、快充移到中間細條",
+      "published": "2026-11-19 14:51",
       "history": [
+        {
+          "versionCode": 24,
+          "versionName": "0.3.21",
+          "notes": "導航指示字改成最多兩行、不再縮到看不見；服務區、快充移到中間細條",
+          "published": "2026-11-19 14:51"
+        },
         {
           "versionCode": 23,
           "versionName": "0.3.20",
@@ -603,5 +609,5 @@
       ]
     }
   ],
-  "updated": "2026-11-19 14:38"
+  "updated": "2026-11-19 14:51"
 }
