@@ -487,16 +487,65 @@
       ]
     },
     {
+      "package": "tw.qiangni.car.key",
+      "name": "牆泥鑰匙",
+      "versionCode": 5,
+      "versionName": "0.1.4",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.key-5/tw.qiangni.car.key-5.apk",
+      "sha256": "bb981dfbeaa1d01fd933ebe756e1a7a43fbfdc10e0329dc3587c5cfcff2b6a27",
+      "size": 2091233,
+      "notes": "離車自動上鎖：開門離開 READY 後，車門一關上就馬上上鎖（這台車熄火訊號不會變）",
+      "published": "2026-11-19 15:25",
+      "history": [
+        {
+          "versionCode": 5,
+          "versionName": "0.1.4",
+          "notes": "離車自動上鎖：開門離開 READY 後，車門一關上就馬上上鎖（這台車熄火訊號不會變）",
+          "published": "2026-11-19 15:25"
+        },
+        {
+          "versionCode": 4,
+          "versionName": "0.1.3",
+          "notes": "熄火馬上連盒子（5 秒到才上鎖）、每次熄火過程上傳雲端、被車機關掉會提醒、只在駕駛使用者跑",
+          "published": "2026-11-18 16:23"
+        },
+        {
+          "versionCode": 3,
+          "versionName": "0.1.2",
+          "notes": "自動上鎖沒收到盒子回報時，自動重試 2 次（車還熄火才重試）",
+          "published": "2026-11-18 00:15"
+        },
+        {
+          "versionCode": 2,
+          "versionName": "0.1.1",
+          "notes": "自動上鎖失敗會回報到雲端；閃退自動回報",
+          "published": "2026-11-17 17:20"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "新 app：熄火 5 秒後自動上鎖、車機上鎖／解鎖按鈕；登入碼第一次在 App 裡輸入，不放進 APK",
+          "published": "2026-11-17 15:10"
+        }
+      ]
+    },
+    {
       "package": "tw.qiangni.car.bridge",
       "name": "牆泥車況讀取",
-      "versionCode": 19,
-      "versionName": "0.1.18",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.bridge-19/tw.qiangni.car.bridge-19.apk",
-      "sha256": "ab0d5edefaf5e044e2863c4fdca73cd7514c47cee1841582a3cf3a41fdf1ebe2",
-      "size": 2088633,
-      "notes": "車門與電源狀態每 1.5 秒讀一次（給牆泥鑰匙離車上鎖用）",
-      "published": "2026-11-19 15:18",
+      "versionCode": 20,
+      "versionName": "0.1.19",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.bridge-20/tw.qiangni.car.bridge-20.apk",
+      "sha256": "c6cf976be7f6f3568b68dafa0a89812ed115fc77fb1e5b9dd85ae0a0935a2a1f",
+      "size": 2089717,
+      "notes": "多讀剩餘電量 kWh、油門、巡航速度與跟車距離",
+      "published": "2026-11-19 16:27",
       "history": [
+        {
+          "versionCode": 20,
+          "versionName": "0.1.19",
+          "notes": "多讀剩餘電量 kWh、油門、巡航速度與跟車距離",
+          "published": "2026-11-19 16:27"
+        },
         {
           "versionCode": 19,
           "versionName": "0.1.18",
@@ -594,50 +643,7 @@
           "published": "2026-11-17 17:47"
         }
       ]
-    },
-    {
-      "package": "tw.qiangni.car.key",
-      "name": "牆泥鑰匙",
-      "versionCode": 5,
-      "versionName": "0.1.4",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.key-5/tw.qiangni.car.key-5.apk",
-      "sha256": "bb981dfbeaa1d01fd933ebe756e1a7a43fbfdc10e0329dc3587c5cfcff2b6a27",
-      "size": 2091233,
-      "notes": "離車自動上鎖：開門離開 READY 後，車門一關上就馬上上鎖（這台車熄火訊號不會變）",
-      "published": "2026-11-19 15:25",
-      "history": [
-        {
-          "versionCode": 5,
-          "versionName": "0.1.4",
-          "notes": "離車自動上鎖：開門離開 READY 後，車門一關上就馬上上鎖（這台車熄火訊號不會變）",
-          "published": "2026-11-19 15:25"
-        },
-        {
-          "versionCode": 4,
-          "versionName": "0.1.3",
-          "notes": "熄火馬上連盒子（5 秒到才上鎖）、每次熄火過程上傳雲端、被車機關掉會提醒、只在駕駛使用者跑",
-          "published": "2026-11-18 16:23"
-        },
-        {
-          "versionCode": 3,
-          "versionName": "0.1.2",
-          "notes": "自動上鎖沒收到盒子回報時，自動重試 2 次（車還熄火才重試）",
-          "published": "2026-11-18 00:15"
-        },
-        {
-          "versionCode": 2,
-          "versionName": "0.1.1",
-          "notes": "自動上鎖失敗會回報到雲端；閃退自動回報",
-          "published": "2026-11-17 17:20"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "新 app：熄火 5 秒後自動上鎖、車機上鎖／解鎖按鈕；登入碼第一次在 App 裡輸入，不放進 APK",
-          "published": "2026-11-17 15:10"
-        }
-      ]
     }
   ],
-  "updated": "2026-11-19 15:25"
+  "updated": "2026-11-19 16:27"
 }
