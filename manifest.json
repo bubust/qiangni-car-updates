@@ -510,16 +510,108 @@
       ]
     },
     {
+      "package": "tw.qiangni.car.voice",
+      "name": "牆泥語音",
+      "versionCode": 4,
+      "versionName": "0.1.3",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.voice-4/tw.qiangni.car.voice-4.apk",
+      "sha256": "9e5acc7d6057a9f7549b1bde65b019585b928f4f763078fa65ef47931c7b7cb2",
+      "size": 2119569,
+      "notes": "拿掉提示音",
+      "published": "2026-11-24 10:49",
+      "history": [
+        {
+          "versionCode": 4,
+          "versionName": "0.1.3",
+          "notes": "拿掉提示音",
+          "published": "2026-11-24 10:49"
+        },
+        {
+          "versionCode": 3,
+          "versionName": "0.1.2",
+          "notes": "語音鍵按兩下叫出來後一定會開始聽（等原廠語音放開麥克風再開始）；沒成功會記下原因",
+          "published": "2026-11-19 19:13"
+        },
+        {
+          "versionCode": 2,
+          "versionName": "0.1.1",
+          "notes": "可以被方向盤語音鍵（按兩下）叫出來",
+          "published": "2026-11-19 14:55"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "新 app：語音助理，按鈕說話問車況、天氣、導航、放音樂，其他問 AI；可設成方向盤語音鍵的數位助理",
+          "published": "2026-11-19 06:11"
+        }
+      ]
+    },
+    {
+      "package": "tw.qiangni.car.key",
+      "name": "牆泥鑰匙",
+      "versionCode": 6,
+      "versionName": "0.1.5",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.key-6/tw.qiangni.car.key-6.apk",
+      "sha256": "14d791e0d85fb7a42b0d098d7403b4ffb26fbe34c39f3987c04ee753cf56402e",
+      "size": 2091661,
+      "notes": "停車 5 分鐘後放慢（15 秒問一次）",
+      "published": "2026-11-24 11:00",
+      "history": [
+        {
+          "versionCode": 6,
+          "versionName": "0.1.5",
+          "notes": "停車 5 分鐘後放慢（15 秒問一次）",
+          "published": "2026-11-24 11:00"
+        },
+        {
+          "versionCode": 5,
+          "versionName": "0.1.4",
+          "notes": "離車自動上鎖：開門離開 READY 後，車門一關上就馬上上鎖（這台車熄火訊號不會變）",
+          "published": "2026-11-19 15:25"
+        },
+        {
+          "versionCode": 4,
+          "versionName": "0.1.3",
+          "notes": "熄火馬上連盒子（5 秒到才上鎖）、每次熄火過程上傳雲端、被車機關掉會提醒、只在駕駛使用者跑",
+          "published": "2026-11-18 16:23"
+        },
+        {
+          "versionCode": 3,
+          "versionName": "0.1.2",
+          "notes": "自動上鎖沒收到盒子回報時，自動重試 2 次（車還熄火才重試）",
+          "published": "2026-11-18 00:15"
+        },
+        {
+          "versionCode": 2,
+          "versionName": "0.1.1",
+          "notes": "自動上鎖失敗會回報到雲端；閃退自動回報",
+          "published": "2026-11-17 17:20"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "新 app：熄火 5 秒後自動上鎖、車機上鎖／解鎖按鈕；登入碼第一次在 App 裡輸入，不放進 APK",
+          "published": "2026-11-17 15:10"
+        }
+      ]
+    },
+    {
       "package": "tw.qiangni.car.bridge",
       "name": "牆泥車況讀取",
-      "versionCode": 25,
-      "versionName": "0.1.24",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.bridge-25/tw.qiangni.car.bridge-25.apk",
-      "sha256": "e49d82b255879595e524c5f1dc836efe835e9bc41660ccf6006e1259b9deaa2b",
-      "size": 2092577,
-      "notes": "自己恢復執行、AA 重開先啟動 AA 服務",
-      "published": "2026-11-24 10:39",
+      "versionCode": 26,
+      "versionName": "0.1.25",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.bridge-26/tw.qiangni.car.bridge-26.apk",
+      "sha256": "05c9706a561cb5e952128402accf7aa2022abd38a7b368468b36ee0daeb60342",
+      "size": 2092913,
+      "notes": "AA 當掉紀錄抓完整（例外訊息、誰叫出 AA）",
+      "published": "2026-11-24 11:25",
       "history": [
+        {
+          "versionCode": 26,
+          "versionName": "0.1.25",
+          "notes": "AA 當掉紀錄抓完整（例外訊息、誰叫出 AA）",
+          "published": "2026-11-24 11:25"
+        },
         {
           "versionCode": 25,
           "versionName": "0.1.24",
@@ -653,93 +745,7 @@
           "published": "2026-11-17 17:47"
         }
       ]
-    },
-    {
-      "package": "tw.qiangni.car.voice",
-      "name": "牆泥語音",
-      "versionCode": 4,
-      "versionName": "0.1.3",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.voice-4/tw.qiangni.car.voice-4.apk",
-      "sha256": "9e5acc7d6057a9f7549b1bde65b019585b928f4f763078fa65ef47931c7b7cb2",
-      "size": 2119569,
-      "notes": "拿掉提示音",
-      "published": "2026-11-24 10:49",
-      "history": [
-        {
-          "versionCode": 4,
-          "versionName": "0.1.3",
-          "notes": "拿掉提示音",
-          "published": "2026-11-24 10:49"
-        },
-        {
-          "versionCode": 3,
-          "versionName": "0.1.2",
-          "notes": "語音鍵按兩下叫出來後一定會開始聽（等原廠語音放開麥克風再開始）；沒成功會記下原因",
-          "published": "2026-11-19 19:13"
-        },
-        {
-          "versionCode": 2,
-          "versionName": "0.1.1",
-          "notes": "可以被方向盤語音鍵（按兩下）叫出來",
-          "published": "2026-11-19 14:55"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "新 app：語音助理，按鈕說話問車況、天氣、導航、放音樂，其他問 AI；可設成方向盤語音鍵的數位助理",
-          "published": "2026-11-19 06:11"
-        }
-      ]
-    },
-    {
-      "package": "tw.qiangni.car.key",
-      "name": "牆泥鑰匙",
-      "versionCode": 6,
-      "versionName": "0.1.5",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.key-6/tw.qiangni.car.key-6.apk",
-      "sha256": "14d791e0d85fb7a42b0d098d7403b4ffb26fbe34c39f3987c04ee753cf56402e",
-      "size": 2091661,
-      "notes": "停車 5 分鐘後放慢（15 秒問一次）",
-      "published": "2026-11-24 11:00",
-      "history": [
-        {
-          "versionCode": 6,
-          "versionName": "0.1.5",
-          "notes": "停車 5 分鐘後放慢（15 秒問一次）",
-          "published": "2026-11-24 11:00"
-        },
-        {
-          "versionCode": 5,
-          "versionName": "0.1.4",
-          "notes": "離車自動上鎖：開門離開 READY 後，車門一關上就馬上上鎖（這台車熄火訊號不會變）",
-          "published": "2026-11-19 15:25"
-        },
-        {
-          "versionCode": 4,
-          "versionName": "0.1.3",
-          "notes": "熄火馬上連盒子（5 秒到才上鎖）、每次熄火過程上傳雲端、被車機關掉會提醒、只在駕駛使用者跑",
-          "published": "2026-11-18 16:23"
-        },
-        {
-          "versionCode": 3,
-          "versionName": "0.1.2",
-          "notes": "自動上鎖沒收到盒子回報時，自動重試 2 次（車還熄火才重試）",
-          "published": "2026-11-18 00:15"
-        },
-        {
-          "versionCode": 2,
-          "versionName": "0.1.1",
-          "notes": "自動上鎖失敗會回報到雲端；閃退自動回報",
-          "published": "2026-11-17 17:20"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "新 app：熄火 5 秒後自動上鎖、車機上鎖／解鎖按鈕；登入碼第一次在 App 裡輸入，不放進 APK",
-          "published": "2026-11-17 15:10"
-        }
-      ]
     }
   ],
-  "updated": "2026-11-24 11:00"
+  "updated": "2026-11-24 11:25"
 }
