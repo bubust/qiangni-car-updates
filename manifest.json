@@ -598,14 +598,20 @@
     {
       "package": "tw.qiangni.car.bridge",
       "name": "牆泥車況讀取",
-      "versionCode": 26,
-      "versionName": "0.1.25",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.bridge-26/tw.qiangni.car.bridge-26.apk",
-      "sha256": "05c9706a561cb5e952128402accf7aa2022abd38a7b368468b36ee0daeb60342",
-      "size": 2092913,
-      "notes": "AA 當掉紀錄抓完整（例外訊息、誰叫出 AA）",
-      "published": "2026-11-24 11:25",
+      "versionCode": 27,
+      "versionName": "0.1.26",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.bridge-27/tw.qiangni.car.bridge-27.apk",
+      "sha256": "10705dc6242b607ab7557a7263fdaa57c0b1dcc03e7cc2873b385c50f703fe9b",
+      "size": 2099889,
+      "notes": "讀充電訊號：停車插槍時只看充電（等充電 5 分鐘一次、充電中 45 秒一次），每次變化記到雲端",
+      "published": "2026-11-24 22:10",
       "history": [
+        {
+          "versionCode": 27,
+          "versionName": "0.1.26",
+          "notes": "讀充電訊號：停車插槍時只看充電（等充電 5 分鐘一次、充電中 45 秒一次），每次變化記到雲端",
+          "published": "2026-11-24 22:10"
+        },
         {
           "versionCode": 26,
           "versionName": "0.1.25",
@@ -747,5 +753,5 @@
       ]
     }
   ],
-  "updated": "2026-11-24 11:25"
+  "updated": "2026-11-24 22:10"
 }
