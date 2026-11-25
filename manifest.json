@@ -390,55 +390,6 @@
       ]
     },
     {
-      "package": "tw.qiangni.car.key",
-      "name": "牆泥鑰匙",
-      "versionCode": 6,
-      "versionName": "0.1.5",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.key-6/tw.qiangni.car.key-6.apk",
-      "sha256": "14d791e0d85fb7a42b0d098d7403b4ffb26fbe34c39f3987c04ee753cf56402e",
-      "size": 2091661,
-      "notes": "停車 5 分鐘後放慢（15 秒問一次）",
-      "published": "2026-11-24 11:00",
-      "history": [
-        {
-          "versionCode": 6,
-          "versionName": "0.1.5",
-          "notes": "停車 5 分鐘後放慢（15 秒問一次）",
-          "published": "2026-11-24 11:00"
-        },
-        {
-          "versionCode": 5,
-          "versionName": "0.1.4",
-          "notes": "離車自動上鎖：開門離開 READY 後，車門一關上就馬上上鎖（這台車熄火訊號不會變）",
-          "published": "2026-11-19 15:25"
-        },
-        {
-          "versionCode": 4,
-          "versionName": "0.1.3",
-          "notes": "熄火馬上連盒子（5 秒到才上鎖）、每次熄火過程上傳雲端、被車機關掉會提醒、只在駕駛使用者跑",
-          "published": "2026-11-18 16:23"
-        },
-        {
-          "versionCode": 3,
-          "versionName": "0.1.2",
-          "notes": "自動上鎖沒收到盒子回報時，自動重試 2 次（車還熄火才重試）",
-          "published": "2026-11-18 00:15"
-        },
-        {
-          "versionCode": 2,
-          "versionName": "0.1.1",
-          "notes": "自動上鎖失敗會回報到雲端；閃退自動回報",
-          "published": "2026-11-17 17:20"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "新 app：熄火 5 秒後自動上鎖、車機上鎖／解鎖按鈕；登入碼第一次在 App 裡輸入，不放進 APK",
-          "published": "2026-11-17 15:10"
-        }
-      ]
-    },
-    {
       "package": "tw.qiangni.car.bridge",
       "name": "牆泥車況讀取",
       "versionCode": 27,
@@ -757,7 +708,62 @@
           "published": "2026-11-16 14:13"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.key",
+      "name": "牆泥鑰匙",
+      "versionCode": 7,
+      "versionName": "0.1.6",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.key-7/tw.qiangni.car.key-7.apk",
+      "sha256": "da846b6ac419428bd0df892d51117c0bf51917d17fe550ec1762d42fedb7bd91",
+      "size": 2092329,
+      "notes": "離開 READY 就先連盒子登入，車門一關（或車機要關機時）立刻上鎖",
+      "published": "2026-11-25 19:20",
+      "history": [
+        {
+          "versionCode": 7,
+          "versionName": "0.1.6",
+          "notes": "離開 READY 就先連盒子登入，車門一關（或車機要關機時）立刻上鎖",
+          "published": "2026-11-25 19:20"
+        },
+        {
+          "versionCode": 6,
+          "versionName": "0.1.5",
+          "notes": "停車 5 分鐘後放慢（15 秒問一次）",
+          "published": "2026-11-24 11:00"
+        },
+        {
+          "versionCode": 5,
+          "versionName": "0.1.4",
+          "notes": "離車自動上鎖：開門離開 READY 後，車門一關上就馬上上鎖（這台車熄火訊號不會變）",
+          "published": "2026-11-19 15:25"
+        },
+        {
+          "versionCode": 4,
+          "versionName": "0.1.3",
+          "notes": "熄火馬上連盒子（5 秒到才上鎖）、每次熄火過程上傳雲端、被車機關掉會提醒、只在駕駛使用者跑",
+          "published": "2026-11-18 16:23"
+        },
+        {
+          "versionCode": 3,
+          "versionName": "0.1.2",
+          "notes": "自動上鎖沒收到盒子回報時，自動重試 2 次（車還熄火才重試）",
+          "published": "2026-11-18 00:15"
+        },
+        {
+          "versionCode": 2,
+          "versionName": "0.1.1",
+          "notes": "自動上鎖失敗會回報到雲端；閃退自動回報",
+          "published": "2026-11-17 17:20"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "新 app：熄火 5 秒後自動上鎖、車機上鎖／解鎖按鈕；登入碼第一次在 App 裡輸入，不放進 APK",
+          "published": "2026-11-17 15:10"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-24 22:18"
+  "updated": "2026-11-25 19:20"
 }
