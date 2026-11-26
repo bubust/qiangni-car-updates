@@ -99,43 +99,6 @@
       ]
     },
     {
-      "package": "tw.qiangni.car.voice",
-      "name": "牆泥語音",
-      "versionCode": 4,
-      "versionName": "0.1.3",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.voice-4/tw.qiangni.car.voice-4.apk",
-      "sha256": "9e5acc7d6057a9f7549b1bde65b019585b928f4f763078fa65ef47931c7b7cb2",
-      "size": 2119569,
-      "notes": "拿掉提示音",
-      "published": "2026-11-24 10:49",
-      "history": [
-        {
-          "versionCode": 4,
-          "versionName": "0.1.3",
-          "notes": "拿掉提示音",
-          "published": "2026-11-24 10:49"
-        },
-        {
-          "versionCode": 3,
-          "versionName": "0.1.2",
-          "notes": "語音鍵按兩下叫出來後一定會開始聽（等原廠語音放開麥克風再開始）；沒成功會記下原因",
-          "published": "2026-11-19 19:13"
-        },
-        {
-          "versionCode": 2,
-          "versionName": "0.1.1",
-          "notes": "可以被方向盤語音鍵（按兩下）叫出來",
-          "published": "2026-11-19 14:55"
-        },
-        {
-          "versionCode": 1,
-          "versionName": "0.1.0",
-          "notes": "新 app：語音助理，按鈕說話問車況、天氣、導航、放音樂，其他問 AI；可設成方向盤語音鍵的數位助理",
-          "published": "2026-11-19 06:11"
-        }
-      ]
-    },
-    {
       "package": "tw.qiangni.car.bridge",
       "name": "牆泥車況讀取",
       "versionCode": 27,
@@ -787,7 +750,50 @@
           "published": "2026-11-14 00:42"
         }
       ]
+    },
+    {
+      "package": "tw.qiangni.car.voice",
+      "name": "牆泥語音",
+      "versionCode": 5,
+      "versionName": "0.1.4",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.voice-5/tw.qiangni.car.voice-5.apk",
+      "sha256": "3105338b5162723ca1ac975d1dbe76c1ed95b972c7ffc3aafe0bab1adf9bec97",
+      "size": 2124189,
+      "notes": "語音問答：下一個服務區、前面路況、充電站、停車場、去某地夠不夠電",
+      "published": "2026-11-26 14:49",
+      "history": [
+        {
+          "versionCode": 5,
+          "versionName": "0.1.4",
+          "notes": "語音問答：下一個服務區、前面路況、充電站、停車場、去某地夠不夠電",
+          "published": "2026-11-26 14:49"
+        },
+        {
+          "versionCode": 4,
+          "versionName": "0.1.3",
+          "notes": "拿掉提示音",
+          "published": "2026-11-24 10:49"
+        },
+        {
+          "versionCode": 3,
+          "versionName": "0.1.2",
+          "notes": "語音鍵按兩下叫出來後一定會開始聽（等原廠語音放開麥克風再開始）；沒成功會記下原因",
+          "published": "2026-11-19 19:13"
+        },
+        {
+          "versionCode": 2,
+          "versionName": "0.1.1",
+          "notes": "可以被方向盤語音鍵（按兩下）叫出來",
+          "published": "2026-11-19 14:55"
+        },
+        {
+          "versionCode": 1,
+          "versionName": "0.1.0",
+          "notes": "新 app：語音助理，按鈕說話問車況、天氣、導航、放音樂，其他問 AI；可設成方向盤語音鍵的數位助理",
+          "published": "2026-11-19 06:11"
+        }
+      ]
     }
   ],
-  "updated": "2026-11-26 14:44"
+  "updated": "2026-11-26 14:49"
 }
