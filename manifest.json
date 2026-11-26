@@ -610,14 +610,20 @@
     {
       "package": "tw.qiangni.car.logger",
       "name": "牆泥行車紀錄",
-      "versionCode": 29,
-      "versionName": "0.2.27",
-      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.logger-29/tw.qiangni.car.logger-29.apk",
-      "sha256": "5d69d45880005f045701731b6deef857677b5e2fae477f57b7c97ec5efe62261",
-      "size": 2337145,
-      "notes": "充電站提示改成電量低於 20% 才顯示",
-      "published": "2026-11-25 19:34",
+      "versionCode": 30,
+      "versionName": "0.2.28",
+      "url": "https://github.com/bubust/qiangni-car-updates/releases/download/tw.qiangni.car.logger-30/tw.qiangni.car.logger-30.apk",
+      "sha256": "9fce8fff62e5c62dabcba7135005c6fc86ed740d53ac5c7de5bbea90b527d1bf",
+      "size": 2349337,
+      "notes": "停車守護（門窗沒關、小電瓶低電壓提醒）、省電教練、路況主動提醒（上國道前和國道上念出來）、找車位置",
+      "published": "2026-11-26 14:36",
       "history": [
+        {
+          "versionCode": 30,
+          "versionName": "0.2.28",
+          "notes": "停車守護（門窗沒關、小電瓶低電壓提醒）、省電教練、路況主動提醒（上國道前和國道上念出來）、找車位置",
+          "published": "2026-11-26 14:36"
+        },
         {
           "versionCode": 29,
           "versionName": "0.2.27",
@@ -777,5 +783,5 @@
       ]
     }
   ],
-  "updated": "2026-11-25 19:34"
+  "updated": "2026-11-26 14:36"
 }
